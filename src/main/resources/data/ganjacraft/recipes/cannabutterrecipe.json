@@ -1,0 +1,12 @@
+{
+  "group": "ganjacraft",
+  "type": "minecraft:smoking",
+  "experience": 4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "ganjacraft:indicabud"
+  },
+  "result": {
+    "item": "ganjacraft:cannabutteritem"
+  }
+}

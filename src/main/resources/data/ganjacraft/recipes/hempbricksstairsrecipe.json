@@ -1,0 +1,33 @@
+{
+  "group": "ganjacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hempbricks"
+    },
+    "3": {
+      "item": "ganjacraft:hempbricks"
+    },
+    "4": {
+      "item": "ganjacraft:hempbricks"
+    },
+    "6": {
+      "item": "ganjacraft:hempbricks"
+    },
+    "7": {
+      "item": "ganjacraft:hempbricks"
+    },
+    "8": {
+      "item": "ganjacraft:hempbricks"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hempbricksstairs",
+    "count": 8
+  }
+}

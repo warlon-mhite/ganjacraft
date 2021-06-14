@@ -1,0 +1,47 @@
+{
+  "ganjadisc": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "ganjacraft:ganjadisc",
+        "stream": true
+      }
+    ]
+  },
+  "smoking": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "ganjacraft:smoking",
+        "stream": false
+      }
+    ]
+  },
+  "bonghit": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "ganjacraft:bonghit",
+        "stream": false
+      }
+    ]
+  },
+  "coughing": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "ganjacraft:coughing",
+        "stream": false
+      }
+    ]
+  },
+  "randomcoughing": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "ganjacraft:coughing",
+        "stream": false
+      }
+    ]
+  }
+}

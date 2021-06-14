@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "golden_cannarrot",
+    "customModelName": "Normal",
+    "name": "Golden Cannarot",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:GanjaCraftCreativeTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 6,
+    "saturation": 14.2,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}

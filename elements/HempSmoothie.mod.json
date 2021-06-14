@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "hempsmoothie",
+    "customModelName": "Normal",
+    "name": "Hemp Smoothie",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:GanjaCraftCreativeTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 1.2,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}

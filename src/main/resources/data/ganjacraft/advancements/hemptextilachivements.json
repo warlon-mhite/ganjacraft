@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "ganjacraft:hempfiberitem"
+    },
+    "title": {
+      "translate": "advancements.hemptextilachivements.title"
+    },
+    "description": {
+      "translate": "advancements.hemptextilachivements.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hemptextilachivements": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "ganjacraft:woolrecipe",
+      "ganjacraft:paperrecipe",
+      "ganjacraft:stringrecipe",
+      "ganjacraft:hemphatrecipe",
+      "ganjacraft:hempoutfitbodyrecipe",
+      "ganjacraft:hempsarouelrecipe"
+    ]
+  },
+  "parent": "ganjacraft:weedgroweradvancement"
+}

@@ -1,0 +1,13 @@
+{
+  "group": "ganjacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ganjacraft:hempstem"
+    }
+  ],
+  "result": {
+    "item": "ganjacraft:hempfiberitem",
+    "count": 6
+  }
+}

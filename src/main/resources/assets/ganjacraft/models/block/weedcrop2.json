@@ -1,0 +1,8 @@
+{
+  "parent": "ganjacraft:custom/weed-crop-stage2",
+  "textures": {
+    "all": "ganjacraft:blocks/weedplant-texture",
+    "particle": "ganjacraft:blocks/weedplant-texture",
+    "missing": "ganjacraft:blocks/weedplant-texture"
+  }
+}

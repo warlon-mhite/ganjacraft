@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Ganja Craft",
+    "icon": {
+      "value": "CUSTOM:IndicaBong"
+    },
+    "showSearch": true
+  }
+}

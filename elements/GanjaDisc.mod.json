@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ganjadisc",
+    "name": "Ganja Disc",
+    "description": "Good reggae vibe man",
+    "creativeTab": {
+      "value": "CUSTOM:GanjaCraftCreativeTab"
+    },
+    "music": {
+      "value": "CUSTOM:ganjadisc"
+    },
+    "specialInfo": [
+      "Credit : Mr Pink by Topher Mohr & AlexElena"
+    ],
+    "hasGlow": false
+  }
+}

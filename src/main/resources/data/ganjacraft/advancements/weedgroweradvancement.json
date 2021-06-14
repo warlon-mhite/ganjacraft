@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "weedgroweradvancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ganjacraft:hempstem",
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 21,
+    "recipes": [
+      "ganjacraft:hempfiber",
+      "ganjacraft:stickrecipe",
+      "ganjacraft:hempbrickrecipe",
+      "ganjacraft:greendye",
+      "ganjacraft:rolling_spliff",
+      "ganjacraft:indicabongrecipe",
+      "ganjacraft:cannabutterrecipe",
+      "ganjacraft:hempbalerecipe"
+    ]
+  },
+  "parent": "ganjacraft:cannabisseedsadvancement"
+}

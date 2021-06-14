@@ -1,0 +1,9 @@
+{
+  "group": "ganjacraft",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "ganjacraft:hempbricks"
+  },
+  "result": "ganjacraft:hempbricksslab"
+}

@@ -1,0 +1,36 @@
+{
+  "group": "ganjacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hempfiberitem"
+    },
+    "1": {
+      "item": "ganjacraft:hempfiberitem"
+    },
+    "2": {
+      "item": "ganjacraft:hempfiberitem"
+    },
+    "3": {
+      "item": "ganjacraft:hempfiberitem"
+    },
+    "5": {
+      "item": "ganjacraft:hempfiberitem"
+    },
+    "6": {
+      "item": "ganjacraft:hempfiberitem"
+    },
+    "8": {
+      "item": "ganjacraft:hempfiberitem"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hempoutfit_leggings",
+    "count": 1
+  }
+}
