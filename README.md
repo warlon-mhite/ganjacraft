@@ -1,6 +1,6 @@
 # GANJACRAFT
-A fun and useful MineCraft mod. (WiP)
-Made with MCreator under any chemical influences in any sort :)<br/>
+A fun and useful MineCraft mod.<br/>
+Made with MCreator under no chemical influences of any sort :)<br/>
 
 <ul>FEATURES :</ul>
 <li>Plant and harvest indica cannabis
