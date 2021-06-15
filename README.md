@@ -12,7 +12,7 @@ Made with MCreator under any chemical influences in any sort :)<br/>
 <li>smoke indica bong (stronger resistance)
 <li>eating edibles
 <li>advancements
-
+<br/>
 <ul>NEW CRAFTS : </ul>
 <li>Indica Spliff</li>
 <li>Hemp fiber</li>
@@ -30,13 +30,15 @@ Made with MCreator under any chemical influences in any sort :)<br/>
 <li>golden cannarot</li>
 <li>hemp smoothie</li>
 
-
+<br/>
 <ul>ALTERNATIVES CRAFTS :</ul>
 <li>Paper</li>
 <li>Wool</li>
 <li>Stick</li>
 <li>Green Dye</li>
-
+<br/>
+<br/>
+<br/>
 <ul>UPCOMMING :</ul>
 <li>Sativa cannabis</li>
 <li>CBD Cannabis</li>
