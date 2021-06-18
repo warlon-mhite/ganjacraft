@@ -1,4 +1,19 @@
 {
+  "display": {
+    "icon": {
+      "item": "ganjacraft:indicabud"
+    },
+    "title": {
+      "translate": "advancements.weedgroweradvancement.title"
+    },
+    "description": {
+      "translate": "advancements.weedgroweradvancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
   "criteria": {
     "weedgroweradvancement": {
       "trigger": "minecraft:inventory_changed",
@@ -8,7 +23,7 @@
             "item": "ganjacraft:hempstem",
             "count": {
               "min": 1,
-              "max": 999
+              "max": 64
             }
           }
         ]
@@ -22,9 +37,6 @@
       "ganjacraft:stickrecipe",
       "ganjacraft:hempbrickrecipe",
       "ganjacraft:greendye",
-      "ganjacraft:rolling_spliff",
-      "ganjacraft:indicabongrecipe",
-      "ganjacraft:cannabutterrecipe",
       "ganjacraft:hempbalerecipe"
     ]
   },

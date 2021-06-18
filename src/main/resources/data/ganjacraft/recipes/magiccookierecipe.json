@@ -1,5 +1,5 @@
 {
-  "group": "ganjacraft",
+  "group": "magiccookie",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012"
@@ -17,6 +17,6 @@
   },
   "result": {
     "item": "ganjacraft:magiccookie",
-    "count": 4
+    "count": 1
   }
 }

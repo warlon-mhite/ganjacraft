@@ -2,6 +2,7 @@ package net.mcreator.ganjacraft.procedures;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.LivingEntity;
@@ -20,7 +21,7 @@ import java.util.Map;
 @GanjacraftModElements.ModElement.Tag
 public class GrownCropByPlayerProcedure extends GanjacraftModElements.ModElement {
 	public GrownCropByPlayerProcedure(GanjacraftModElements instance) {
-		super(instance, 38);
+		super(instance, 41);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -62,15 +63,16 @@ public class GrownCropByPlayerProcedure extends GanjacraftModElements.ModElement
 			world.addEntity(entityToSpawn);
 		}
 		if (world instanceof World && !world.isRemote()) {
-			ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(IndicaBudItem.block, (int) (1)));
-			entityToSpawn.setPickupDelay((int) 10);
-			world.addEntity(entityToSpawn);
-		}
-		if (world instanceof World && !world.isRemote()) {
 			ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(HempStemItem.block, (int) (1)));
 			entityToSpawn.setPickupDelay((int) 10);
 			world.addEntity(entityToSpawn);
 		}
+		if (world instanceof World && !world.isRemote()) {
+			ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(WeedseedsItem.block, (int) (1)));
+			entityToSpawn.setPickupDelay((int) 10);
+			world.addEntity(entityToSpawn);
+		}
+		world.destroyBlock(new BlockPos((int) x, (int) (y + 1), (int) z), false);
 		if (((dropChance) >= 0.95)) {
 			if (world instanceof World && !world.isRemote()) {
 				ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
@@ -87,14 +89,7 @@ public class GrownCropByPlayerProcedure extends GanjacraftModElements.ModElement
 			}
 			if (world instanceof World && !world.isRemote()) {
 				ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-						new ItemStack(IndicaBudItem.block, (int) (1)));
-				entityToSpawn.setPickupDelay((int) 10);
-				world.addEntity(entityToSpawn);
-			}
-		} else if (((dropChance) >= 0.6)) {
-			if (world instanceof World && !world.isRemote()) {
-				ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-						new ItemStack(IndicaBudItem.block, (int) (1)));
+						new ItemStack(WeedseedsItem.block, (int) (1)));
 				entityToSpawn.setPickupDelay((int) 10);
 				world.addEntity(entityToSpawn);
 			}

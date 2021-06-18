@@ -6,18 +6,24 @@
     "texture": "golden_cannarrot",
     "customModelName": "Normal",
     "name": "Golden Cannarot",
-    "rarity": "COMMON",
+    "rarity": "UNCOMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GanjaCraftCreativeTab"
     },
     "stackSize": 64,
     "nutritionalValue": 6,
-    "saturation": 14.2,
+    "saturation": 14.4,
     "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
     "forDogs": false,
     "isAlwaysEdible": true,
     "animation": "eat",
-    "hasGlow": true
+    "hasGlow": true,
+    "onEaten": {
+      "name": "StartTimerGC"
+    }
   }
 }

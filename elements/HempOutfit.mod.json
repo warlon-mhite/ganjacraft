@@ -13,10 +13,10 @@
     "creativeTab": {
       "value": "CUSTOM:GanjaCraftCreativeTab"
     },
-    "armorTextureFile": "hemp",
+    "armorTextureFile": "hemp_",
     "helmetName": "Hemp Hat",
     "bodyName": "Hemp Outfit Body",
-    "leggingsName": "Hemp Sarouel",
+    "leggingsName": "Hemp Harem Pants",
     "bootsName": "Hemp Outfit Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
@@ -45,7 +45,7 @@
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": "item.armor.equip_generic"
+      "value": ""
     },
     "repairItems": [
       {

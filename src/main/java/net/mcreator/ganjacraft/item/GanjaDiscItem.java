@@ -23,7 +23,7 @@ public class GanjaDiscItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:ganjadisc")
 	public static final Item block = null;
 	public GanjaDiscItem(GanjacraftModElements instance) {
-		super(instance, 17);
+		super(instance, 20);
 	}
 
 	@Override

@@ -24,7 +24,7 @@
             "item": "ganjacraft:weedseeds",
             "count": {
               "min": 1,
-              "max": 999
+              "max": 64
             }
           }
         ]

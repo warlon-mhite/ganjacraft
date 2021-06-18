@@ -56,6 +56,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.ganjacraft.procedures.WeedOnFireBreaksBottomProcedure;
 import net.mcreator.ganjacraft.procedures.GrownCropByPlayerProcedure;
 import net.mcreator.ganjacraft.procedures.GrownCropByExplosionProcedure;
 import net.mcreator.ganjacraft.item.WeedseedsItem;
@@ -76,7 +77,7 @@ public class Weedcrop7Block extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:weedcrop7")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public Weedcrop7Block(GanjacraftModElements instance) {
-		super(instance, 74);
+		super(instance, 76);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -120,6 +121,11 @@ public class Weedcrop7Block extends GanjacraftModElements.ModElement {
 		}
 
 		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 100;
+		}
+
+		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
 			return new ItemStack(WeedseedsItem.block, (int) (1));
 		}
@@ -145,6 +151,25 @@ public class Weedcrop7Block extends GanjacraftModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(WeedseedsItem.block, (int) (1)));
+		}
+
+		@Override
+		public void neighborChanged(BlockState state, World world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+			super.neighborChanged(state, world, pos, neighborBlock, fromPos, moving);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
+			} else {
+			}
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				WeedOnFireBreaksBottomProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

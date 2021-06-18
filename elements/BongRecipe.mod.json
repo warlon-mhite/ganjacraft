@@ -6,7 +6,7 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "",
+    "group": "bong",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -16,7 +16,7 @@
         "value": "Blocks.GLASS_PANE"
       },
       {
-        "value": ""
+        "value": "Items.IRON_NUGGET"
       },
       {
         "value": "Blocks.GLASS"

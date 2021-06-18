@@ -8,7 +8,7 @@
       "value": "CUSTOM:IndicaBud"
     },
     "background": "Default",
-    "disableDisplay": true,
+    "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
     "hideIfNotCompleted": false,
@@ -18,9 +18,6 @@
       "StickRecipe",
       "HempBrickRecipe",
       "GreenDye",
-      "JointRecipe",
-      "IndicaBongRecipe",
-      "CannabutterRecipe",
       "HempBaleRecipe"
     ],
     "rewardFunction": "No function",
@@ -29,6 +26,6 @@
     "parent": {
       "value": "CUSTOM:CannabisSeedsAdvancement"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"41\" y=\"25\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">999</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:HempStem</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"41\" y=\"25\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:HempStem</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

@@ -15,6 +15,9 @@
     "nutritionalValue": 2,
     "saturation": 1.2,
     "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
     "forDogs": false,
     "isAlwaysEdible": true,
     "animation": "drink",

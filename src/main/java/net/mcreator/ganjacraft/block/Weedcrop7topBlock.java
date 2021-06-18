@@ -54,7 +54,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.ganjacraft.procedures.GrownCropByPlayerProcedure;
+import net.mcreator.ganjacraft.procedures.WeedOnFireBreakUpperBlockProcedure;
+import net.mcreator.ganjacraft.procedures.GrownCropByPlayerBreakCropBlockUnderProcedure;
 import net.mcreator.ganjacraft.procedures.GrownCropByExplosionProcedure;
 import net.mcreator.ganjacraft.item.WeedseedsItem;
 import net.mcreator.ganjacraft.GanjacraftModElements;
@@ -74,7 +75,7 @@ public class Weedcrop7topBlock extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:weedcrop7top")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public Weedcrop7topBlock(GanjacraftModElements instance) {
-		super(instance, 75);
+		super(instance, 77);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -113,6 +114,11 @@ public class Weedcrop7topBlock extends GanjacraftModElements.ModElement {
 		}
 
 		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 100;
+		}
+
+		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
 			return new ItemStack(WeedseedsItem.block, (int) (1));
 		}
@@ -136,6 +142,25 @@ public class Weedcrop7topBlock extends GanjacraftModElements.ModElement {
 		}
 
 		@Override
+		public void neighborChanged(BlockState state, World world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+			super.neighborChanged(state, world, pos, neighborBlock, fromPos, moving);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
+			} else {
+			}
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				WeedOnFireBreakUpperBlockProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
 		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
 			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
 			int x = pos.getX();
@@ -148,7 +173,7 @@ public class Weedcrop7topBlock extends GanjacraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				GrownCropByPlayerProcedure.executeProcedure($_dependencies);
+				GrownCropByPlayerBreakCropBlockUnderProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}

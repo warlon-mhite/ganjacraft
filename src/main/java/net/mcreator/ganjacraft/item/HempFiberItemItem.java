@@ -59,6 +59,7 @@ public class HempFiberItemItem extends GanjacraftModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("itemstack", itemstack);
 				HempFiberCraftedAdvancementProcedure.executeProcedure($_dependencies);
 			}
 		}

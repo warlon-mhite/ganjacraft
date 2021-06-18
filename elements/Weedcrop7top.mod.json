@@ -13,6 +13,8 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -61,7 +63,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
+    "flammability": 100,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
@@ -98,8 +100,12 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "WeedOnFireBreakUpperBlock"
+    },
     "onDestroyedByPlayer": {
-      "name": "GrownCropByPlayer"
+      "name": "GrownCropByPlayerBreakCropBlockUnder"
     },
     "onDestroyedByExplosion": {
       "name": "GrownCropByExplosion"

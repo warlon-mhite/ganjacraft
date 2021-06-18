@@ -2,42 +2,19 @@
   "_fv": 18,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Brewing",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "",
-    "recipeShapeless": true,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:IndicaBud"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.POTIONITEM"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "group": "hempsmoothie",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "Items.POTIONITEM"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:IndicaBud"
+    },
+    "brewingReturnStack": {
       "value": "CUSTOM:HempSmoothie"
     },
     "name": "hempsmoothierecipe",

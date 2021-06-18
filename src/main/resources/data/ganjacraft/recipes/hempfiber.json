@@ -1,5 +1,5 @@
 {
-  "group": "ganjacraft",
+  "group": "hempfiber",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
@@ -8,6 +8,6 @@
   ],
   "result": {
     "item": "ganjacraft:hempfiberitem",
-    "count": 6
+    "count": 4
   }
 }

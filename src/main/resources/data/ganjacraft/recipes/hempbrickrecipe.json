@@ -1,5 +1,5 @@
 {
-  "group": "ganjacraft",
+  "group": "hempbrick",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "01",
@@ -21,6 +21,6 @@
   },
   "result": {
     "item": "ganjacraft:hempbrick",
-    "count": 3
+    "count": 2
   }
 }

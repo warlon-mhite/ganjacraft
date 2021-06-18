@@ -25,7 +25,7 @@ public class MagicCookieItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:magiccookie")
 	public static final Item block = null;
 	public MagicCookieItem(GanjacraftModElements instance) {
-		super(instance, 12);
+		super(instance, 16);
 	}
 
 	@Override

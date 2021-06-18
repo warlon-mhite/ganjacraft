@@ -22,7 +22,7 @@ import java.util.HashMap;
 @GanjacraftModElements.ModElement.Tag
 public class GrassBrokenGivesSeedsProcedure extends GanjacraftModElements.ModElement {
 	public GrassBrokenGivesSeedsProcedure(GanjacraftModElements instance) {
-		super(instance, 34);
+		super(instance, 37);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

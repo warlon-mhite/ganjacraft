@@ -44,6 +44,7 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.ChestContainer;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.ISidedInventory;
+import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -76,7 +77,7 @@ public class Weedcrop1Block extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:weedcrop1")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public Weedcrop1Block(GanjacraftModElements instance) {
-		super(instance, 20);
+		super(instance, 23);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -117,6 +118,11 @@ public class Weedcrop1Block extends GanjacraftModElements.ModElement {
 		@Override
 		public boolean isReplaceable(BlockState state, BlockItemUseContext context) {
 			return context.getItem().getItem() != this.asItem();
+		}
+
+		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 100;
 		}
 
 		@Override
@@ -166,6 +172,23 @@ public class Weedcrop1Block extends GanjacraftModElements.ModElement {
 				UpdateTickProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1);
+		}
+
+		@Override
+		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
+			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				GrowingCropBlowingByExplosionProcedure.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 
 		@Override

@@ -4,12 +4,12 @@ license="Not specified"
 
 [[mods]]
 modId="ganjacraft"
-version="0.3.1"
+version="0.3.2"
 displayName="GanjaCraft"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+displayURL="https://github.com/warlon-mhite/ganjacraft"
 logoFile="logo.png"
-authors="A Stoner Who Plays MineCraft"
+authors="Warlon Mhite"
 description='''
 Add useful and funny weed related content to the game
 '''

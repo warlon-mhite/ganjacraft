@@ -6,7 +6,7 @@
     "texture": "golden_cannapple",
     "customModelName": "Normal",
     "name": "Golden Cannapple",
-    "rarity": "COMMON",
+    "rarity": "UNCOMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:GanjaCraftCreativeTab"
@@ -15,9 +15,15 @@
     "nutritionalValue": 4,
     "saturation": 9.6,
     "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
     "forDogs": false,
     "isAlwaysEdible": true,
     "animation": "eat",
-    "hasGlow": true
+    "hasGlow": true,
+    "onEaten": {
+      "name": "StartTimerGA"
+    }
   }
 }

@@ -22,7 +22,7 @@ public class HempBrickItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:hempbrick")
 	public static final Item block = null;
 	public HempBrickItem(GanjacraftModElements instance) {
-		super(instance, 5);
+		super(instance, 6);
 	}
 
 	@Override
@@ -59,6 +59,7 @@ public class HempBrickItem extends GanjacraftModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("itemstack", itemstack);
 				HempBrickCraftedAdvancementProcedure.executeProcedure($_dependencies);
 			}
 		}

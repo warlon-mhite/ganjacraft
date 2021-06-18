@@ -13,7 +13,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class HempStemFuelFuel extends GanjacraftModElements.ModElement {
 	public HempStemFuelFuel(GanjacraftModElements instance) {
-		super(instance, 27);
+		super(instance, 30);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

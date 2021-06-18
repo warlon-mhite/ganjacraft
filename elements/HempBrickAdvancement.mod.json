@@ -14,7 +14,8 @@
     "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [
-      "HempBricksRecipe"
+      "HempBricksRecipe",
+      "FlowerPotRecipe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 10,
@@ -22,6 +23,6 @@
     "parent": {
       "value": "CUSTOM:WeedGrowerAdvancement"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"24\" y=\"102\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"24\" y=\"102\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

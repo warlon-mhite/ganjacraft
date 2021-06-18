@@ -29,7 +29,7 @@ public class HempOutfitItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:hempoutfit_boots")
 	public static final Item boots = null;
 	public HempOutfitItem(GanjacraftModElements instance) {
-		super(instance, 16);
+		super(instance, 19);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class HempOutfitItem extends GanjacraftModElements.ModElement {
 
 			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_generic"));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 			}
 
 			@Override
@@ -80,21 +80,21 @@ public class HempOutfitItem extends GanjacraftModElements.ModElement {
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(GanjaCraftCreativeTabItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "ganjacraft:textures/models/armor/hemp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "ganjacraft:textures/models/armor/hemp__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("hempoutfit_helmet"));
 		elements.items
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(GanjaCraftCreativeTabItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "ganjacraft:textures/models/armor/hemp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "ganjacraft:textures/models/armor/hemp__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("hempoutfit_chestplate"));
 		elements.items
 				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(GanjaCraftCreativeTabItemGroup.tab)) {
 					@Override
 					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "ganjacraft:textures/models/armor/hemp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+						return "ganjacraft:textures/models/armor/hemp__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("hempoutfit_leggings"));
 	}

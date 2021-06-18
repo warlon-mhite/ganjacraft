@@ -29,7 +29,7 @@ import java.util.HashMap;
 @GanjacraftModElements.ModElement.Tag
 public class UpdateTickProcedure extends GanjacraftModElements.ModElement {
 	public UpdateTickProcedure(GanjacraftModElements instance) {
-		super(instance, 37);
+		super(instance, 40);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

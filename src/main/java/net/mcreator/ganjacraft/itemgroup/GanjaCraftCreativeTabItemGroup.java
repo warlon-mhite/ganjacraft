@@ -13,7 +13,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class GanjaCraftCreativeTabItemGroup extends GanjacraftModElements.ModElement {
 	public GanjaCraftCreativeTabItemGroup(GanjacraftModElements instance) {
-		super(instance, 58);
+		super(instance, 60);
 	}
 
 	@Override

@@ -6,7 +6,7 @@
     "xpReward": 1.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "",
+    "group": "cannabutter",
     "recipeShapeless": false,
     "smeltingInputStack": {
       "value": "CUSTOM:IndicaBud"

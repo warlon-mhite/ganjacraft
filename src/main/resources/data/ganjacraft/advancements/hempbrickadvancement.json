@@ -22,7 +22,8 @@
   "rewards": {
     "experience": 10,
     "recipes": [
-      "ganjacraft:hempbricksrecipe"
+      "ganjacraft:hempbricksrecipe",
+      "ganjacraft:flower_pot_recipe"
     ]
   },
   "parent": "ganjacraft:weedgroweradvancement"

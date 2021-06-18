@@ -1,14 +1,17 @@
 {
-  "group": "ganjacraft",
+  "group": "bong",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
+    " 12",
     "345",
     " 7 "
   ],
   "key": {
     "1": {
       "item": "minecraft:glass_pane"
+    },
+    "2": {
+      "item": "minecraft:iron_nugget"
     },
     "3": {
       "item": "minecraft:glass"

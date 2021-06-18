@@ -19,7 +19,7 @@ import java.util.HashMap;
 @GanjacraftModElements.ModElement.Tag
 public class MagicCookieEffectsProcedure extends GanjacraftModElements.ModElement {
 	public MagicCookieEffectsProcedure(GanjacraftModElements instance) {
-		super(instance, 65);
+		super(instance, 67);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -40,11 +40,11 @@ public class MagicCookieEffectsProcedure extends GanjacraftModElements.ModElemen
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 84, (int) 1, (true), (true)));
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOW_FALLING, (int) 1000, (int) 1, (false), (false)));
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOW_FALLING, (int) 1200, (int) 1, (false), (false)));
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 84, (int) 1, (false), (false)));
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 5200, (int) 1, (false), (false)));
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 8000, (int) 1, (false), (false)));
 				entity.getPersistentData().putDouble("Timer", 0);
 				entity.getPersistentData().putBoolean("StartTimer", (false));
 			}

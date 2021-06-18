@@ -14,9 +14,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
 import net.minecraft.entity.merchant.villager.VillagerEntity;
 import net.minecraft.entity.ai.goal.TemptGoal;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -32,7 +30,6 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureAttribute;
 
-import net.mcreator.ganjacraft.itemgroup.GanjaCraftCreativeTabItemGroup;
 import net.mcreator.ganjacraft.item.SpliffItem;
 import net.mcreator.ganjacraft.item.IndicaBudItem;
 import net.mcreator.ganjacraft.entity.renderer.WeedmanTestRenderer;
@@ -44,7 +41,7 @@ public class WeedmanTestEntity extends GanjacraftModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.6f, 1.95f)).build("weedmantest").setRegistryName("weedmantest");
 	public WeedmanTestEntity(GanjacraftModElements instance) {
-		super(instance, 18);
+		super(instance, 21);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WeedmanTestRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
@@ -52,8 +49,6 @@ public class WeedmanTestEntity extends GanjacraftModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(GanjaCraftCreativeTabItemGroup.tab))
-				.setRegistryName("weedmantest_spawn_egg"));
 	}
 
 	@Override

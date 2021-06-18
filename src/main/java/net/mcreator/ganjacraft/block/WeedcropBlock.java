@@ -37,13 +37,13 @@ import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.inventory.container.INamedContainerProvider;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.ChestContainer;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.ISidedInventory;
+import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -76,7 +76,7 @@ public class WeedcropBlock extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:weedcrop")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public WeedcropBlock(GanjacraftModElements instance) {
-		super(instance, 19);
+		super(instance, 22);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -115,8 +115,8 @@ public class WeedcropBlock extends GanjacraftModElements.ModElement {
 		}
 
 		@Override
-		public boolean isReplaceable(BlockState state, BlockItemUseContext context) {
-			return context.getItem().getItem() != this.asItem();
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 100;
 		}
 
 		@Override
@@ -166,6 +166,23 @@ public class WeedcropBlock extends GanjacraftModElements.ModElement {
 				UpdateTickProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1);
+		}
+
+		@Override
+		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
+			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				GrowingCropBlowingByExplosionProcedure.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 
 		@Override

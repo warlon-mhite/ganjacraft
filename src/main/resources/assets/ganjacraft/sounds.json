@@ -1,15 +1,7 @@
 {
-  "ganjadisc": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "ganjacraft:ganjadisc",
-        "stream": true
-      }
-    ]
-  },
   "smoking": {
     "category": "player",
+    "subtitle": "subtitles.smoking",
     "sounds": [
       {
         "name": "ganjacraft:smoking",
@@ -17,8 +9,19 @@
       }
     ]
   },
+  "ganjadisc": {
+    "category": "music",
+    "subtitle": "subtitles.ganjadisc",
+    "sounds": [
+      {
+        "name": "ganjacraft:ganjadisc",
+        "stream": true
+      }
+    ]
+  },
   "bonghit": {
     "category": "player",
+    "subtitle": "subtitles.bonghit",
     "sounds": [
       {
         "name": "ganjacraft:bonghit",
@@ -26,17 +29,9 @@
       }
     ]
   },
-  "coughing": {
-    "category": "player",
-    "sounds": [
-      {
-        "name": "ganjacraft:coughing",
-        "stream": false
-      }
-    ]
-  },
   "randomcoughing": {
     "category": "player",
+    "subtitle": "subtitles.randomcoughing",
     "sounds": [
       {
         "name": "ganjacraft:coughing",

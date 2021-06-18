@@ -57,8 +57,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.ganjacraft.procedures.UpdateTickProcedure;
-import net.mcreator.ganjacraft.procedures.GrownCropByPlayerProcedure;
-import net.mcreator.ganjacraft.procedures.GrownCropByExplosionProcedure;
+import net.mcreator.ganjacraft.procedures.GrowingCropBlowingByExplosionProcedure;
 import net.mcreator.ganjacraft.item.WeedseedsItem;
 import net.mcreator.ganjacraft.GanjacraftModElements;
 
@@ -78,7 +77,7 @@ public class Weedcrop3Block extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:weedcrop3")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public Weedcrop3Block(GanjacraftModElements instance) {
-		super(instance, 22);
+		super(instance, 25);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -119,6 +118,11 @@ public class Weedcrop3Block extends GanjacraftModElements.ModElement {
 		@Override
 		public boolean isReplaceable(BlockState state, BlockItemUseContext context) {
 			return context.getItem().getItem() != this.asItem();
+		}
+
+		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 100;
 		}
 
 		@Override
@@ -178,12 +182,11 @@ public class Weedcrop3Block extends GanjacraftModElements.ModElement {
 			int z = pos.getZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				GrownCropByPlayerProcedure.executeProcedure($_dependencies);
+				GrowingCropBlowingByExplosionProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}
@@ -200,7 +203,7 @@ public class Weedcrop3Block extends GanjacraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				GrownCropByExplosionProcedure.executeProcedure($_dependencies);
+				GrowingCropBlowingByExplosionProcedure.executeProcedure($_dependencies);
 			}
 		}
 
