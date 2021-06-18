@@ -23,7 +23,7 @@ Made with MCreator under no chemical influences of any sort :)<br/>
 <li>Hemp bricks stairs</li>
 <li>Hemp bricks wall</li>
 <li>Hemp Bale</li>
-<li>Hemp outfit (armor - hat + body + sarouel)</li>
+<li>Hemp outfit (armor - hat + body + harem pants)</li>
 <li>Bong</li>
 <li>Cannabutter</li>
 <li>Magic cookie</li>
@@ -42,5 +42,11 @@ Made with MCreator under no chemical influences of any sort :)<br/>
 <br/>
 <ul>UPCOMMING :</ul>
 <li>Sativa cannabis</li>
-<li>CBD Cannabis</li>
-<li>Weedman (villager)</li>
+<li>CBD cannabis</li>
+<li>Paintings</li>
+<li>Hemp planks</li>
+<li>Hemp bed</li>
+<li>Hemp dorr</li>
+<li>Original Sound for GanjaDisc</li>
+<li>French translation</li>
+
