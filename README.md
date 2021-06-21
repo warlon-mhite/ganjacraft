@@ -1,5 +1,4 @@
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/KDemwDZ"  ><a href="//imgur.com/a/KDemwDZ">GanjaCraft logo</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
+![GanjaCraft logo](https://imgur.com/a/KDemwDZ)
 # GANJACRAFT
 A fun and useful MineCraft mod.<br/>
 Made with MCreator under no chemical influences of any sort :)<br/>
