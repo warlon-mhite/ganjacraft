@@ -34,7 +34,7 @@ Made with MCreator under no chemical influences of any sort :)<br/>
 <br/>
 <ul>ALTERNATIVES CRAFTS :</ul>
 <li>Paper</li>
-<li>Wool</li>
+<li>Green Wool</li>
 <li>Stick</li>
 <li>Green Dye</li>
 <br/>
