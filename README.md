@@ -1,4 +1,4 @@
-<img src"https://imgur.com/a/KDemwDZ" alt="GanjaCraft logo" />
+![GanjaCraft logo](https://imgur.com/a/KDemwDZ)
 
 # GANJACRAFT
 A fun and useful MineCraft mod.<br/>
