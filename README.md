@@ -1,5 +1,5 @@
 ![GanjaCraft logo](https://i.imgur.com/thtQhhE.png)
-#A fun and useful MineCraft mod.<br/>
+A fun and useful MineCraft mod.<br/>
 Made with MCreator under no chemical influences of any sort :)<br/>
 
 <ul>FEATURES :</ul>
