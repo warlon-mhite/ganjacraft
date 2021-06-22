@@ -46,7 +46,7 @@ Made with MCreator under no chemical influences of any sort :)<br/>
 <li>Paintings</li>
 <li>Hemp planks</li>
 <li>Hemp bed</li>
-<li>Hemp dorr</li>
+<li>Hemp door</li>
 <li>Original Sound for GanjaDisc</li>
 <li>French translation</li>
 
