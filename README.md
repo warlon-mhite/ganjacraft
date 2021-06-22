@@ -1,7 +1,9 @@
 ![GanjaCraft logo](https://i.imgur.com/thtQhhE.png)
 A fun and useful MineCraft mod.<br/>
 Made with MCreator under no chemical influences of any sort :)<br/>
-
+I do not encourage recreationnal marijuana or illegal drugs uses ! This is in-game content made for fun.<br/>
+Refer to your country legislation.<br/>
+<br/>
 <ul>FEATURES :</ul>
 <li>Plant and harvest indica cannabis
 <li>Indica grows 2 blocks high (tick to high and bad temporary texture atm)
