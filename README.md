@@ -1,4 +1,4 @@
-![GanjaCraft logo](https://i.imgur.com/thtQhhE.png)
+![GanjaCraft logo](https://i.imgur.com/NOPozgV.png)
 A fun and useful MineCraft mod.<br/>
 Made with MCreator under no chemical influences of any sort :)<br/>
 The cannabis plant is a renewable way to craft bricks, paper, wool, sticks (planed to add a few more in the future.)<br/>
