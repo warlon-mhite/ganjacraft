@@ -1,6 +1,7 @@
 ![GanjaCraft logo](https://i.imgur.com/thtQhhE.png)
 A fun and useful MineCraft mod.<br/>
 Made with MCreator under no chemical influences of any sort :)<br/>
+The cannabis plant is a renewable way to craft bricks, paper, wool, sticks (planed to add a few more in the future.)<br/>
 I do not encourage recreationnal marijuana or illegal drugs uses ! This is in-game content made for fun.<br/>
 Refer to your country legislation.<br/>
 <br/>
@@ -48,7 +49,15 @@ Refer to your country legislation.<br/>
 <li>Paintings</li>
 <li>Hemp planks</li>
 <li>Hemp bed</li>
+<li>Hemp fence</li>
+<li>Hemp fencegate</li>
+<li>Hemp trapdoor</li>
 <li>Hemp door</li>
+<li>Hempcrete</li>
+<li>Green Concrete powder (alt recipe)</li>
+<li>Spawnable structures with loot</li>
 <li>Original Sound for GanjaDisc</li>
 <li>French translation</li>
+<li>and even more +++</li>
 
+You will be able to add this mod in your modpack but you will have to mention it.
