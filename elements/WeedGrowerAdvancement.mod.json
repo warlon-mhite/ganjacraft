@@ -16,9 +16,9 @@
     "rewardRecipes": [
       "HempFiber",
       "StickRecipe",
-      "HempBrickRecipe",
       "GreenDye",
-      "HempBaleRecipe"
+      "HempBaleRecipe",
+      "HempcreteRecipe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 21,

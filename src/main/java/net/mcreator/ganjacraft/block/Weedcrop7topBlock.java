@@ -47,6 +47,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
@@ -54,19 +55,24 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.ganjacraft.procedures.WeedParticlesSpawnProcedure;
 import net.mcreator.ganjacraft.procedures.WeedOnFireBreakUpperBlockProcedure;
 import net.mcreator.ganjacraft.procedures.GrownCropByPlayerBreakCropBlockUnderProcedure;
 import net.mcreator.ganjacraft.procedures.GrownCropByExplosionProcedure;
+import net.mcreator.ganjacraft.particle.CannabisLeafParticleParticle;
 import net.mcreator.ganjacraft.item.WeedseedsItem;
 import net.mcreator.ganjacraft.GanjacraftModElements;
 
 import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
+import java.util.Random;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
+
+import com.google.common.collect.ImmutableMap;
 
 @GanjacraftModElements.ModElement.Tag
 public class Weedcrop7topBlock extends GanjacraftModElements.ModElement {
@@ -93,7 +99,7 @@ public class Weedcrop7topBlock extends GanjacraftModElements.ModElement {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
@@ -158,6 +164,27 @@ public class Weedcrop7topBlock extends GanjacraftModElements.ModElement {
 				$_dependencies.put("world", world);
 				WeedOnFireBreakUpperBlockProcedure.executeProcedure($_dependencies);
 			}
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public void animateTick(BlockState state, World world, BlockPos pos, Random random) {
+			super.animateTick(state, world, pos, random);
+			PlayerEntity entity = Minecraft.getInstance().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			if (WeedParticlesSpawnProcedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
+				for (int l = 0; l < 4; ++l) {
+					double d0 = (x + random.nextFloat());
+					double d1 = (y + random.nextFloat());
+					double d2 = (z + random.nextFloat());
+					int i1 = random.nextInt(2) * 2 - 1;
+					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
+					double d4 = (random.nextFloat() - 0.5D) * 0.5D;
+					double d5 = (random.nextFloat() - 0.5D) * 0.5D;
+					world.addParticle(CannabisLeafParticleParticle.particle, d0, d1, d2, d3, d4, d5);
+				}
 		}
 
 		@Override

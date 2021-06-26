@@ -514,7 +514,8 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "path": "~/recipe"
     },
     {
       "name": "GreenDye",
@@ -1196,6 +1197,534 @@
         ]
       },
       "path": "~/procedure"
+    },
+    {
+      "name": "BernardRappaz64x64",
+      "type": "painting",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bernard_rappaz_64x_64",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "BobMarley48x48",
+      "type": "painting",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bob_marley_48x_48",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "BobMarley48x64",
+      "type": "painting",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bob_marley_48x_64",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "PineappleExpress48x64",
+      "type": "painting",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pineapple_express_32x48",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Rihanna32x32",
+      "type": "painting",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rihanna_32x_32",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SmokingLadyVintage32x48",
+      "type": "painting",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smoking_lady_vintage_32x_48",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SnoopDogg32x64",
+      "type": "painting",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snoop_dogg_32x_64",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SnoopDogg48x48",
+      "type": "painting",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snoop_dogg_48x_48",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "TheDude32x48",
+      "type": "painting",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_dude_32x_48",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "VWt248x32",
+      "type": "painting",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "v_wt_248x_32",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedLeaf32x32",
+      "type": "painting",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_leaf_16x16",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant32x32",
+      "type": "painting",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_plant_32x_32",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant64x96",
+      "type": "painting",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_plant_64x_96",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant264x96",
+      "type": "painting",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_plant_264x_96",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant364x96",
+      "type": "painting",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_plant_364x_96",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant16x32",
+      "type": "painting",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_plant_16x_32",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant16x16",
+      "type": "painting",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_plant_16x_16",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "CannabisLeafParticle",
+      "type": "particle",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cannabis_leaf_particle",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "WeedParticlesSpawn",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_particles_spawn",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "CreeperLootGanjaDisc",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_loot_ganja_disc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "HowHigh32x48",
+      "type": "painting",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "how_high_32x_48",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "UpInSmoke32x48",
+      "type": "painting",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "up_in_smoke_32x_48",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Hendrix32x32",
+      "type": "painting",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hendrix_32x_32",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Hendrix48x48",
+      "type": "painting",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hendrix_48x_48",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "IndicaPlantSpawning",
+      "type": "structure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "indica_plant_spawning"
+    },
+    {
+      "name": "Hempcrete",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hempcrete",
+      "path": "~/items"
+    },
+    {
+      "name": "HempcreteRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hempcrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "ConcreteRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "OrangeConcreteRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "MagentaConcreteRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "LightBlueConcreteRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_blue_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "YellowConcreteRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "LimeConcreteRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "PinkConcreteRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "GrayConcreteRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gray_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "LightGrayConcreteRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_gray_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "CyanConcreteRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cyan_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "PurpleConcreteRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BlueConcreteRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BrownConcreteRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "GreenConcreteRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "RedConcreteRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BlackConcreteRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_concrete_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempcretePowder",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hempcrete_powder",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempcreteBlock",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hempcrete_block",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempcretePowderUpdateTick",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hempcrete_powder_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
     }
   ],
   "variable_elements": [],
@@ -1207,14 +1736,6 @@
       ],
       "category": "player",
       "subtitle": "smoking spliff"
-    },
-    {
-      "name": "ganjadisc",
-      "files": [
-        "ganjadisc"
-      ],
-      "category": "music",
-      "subtitle": "Ganjadisc music"
     },
     {
       "name": "bonghit",
@@ -1231,34 +1752,42 @@
       ],
       "category": "player",
       "subtitle": "Coughing"
+    },
+    {
+      "name": "ganjadisc",
+      "files": [
+        "ganjadisc"
+      ],
+      "category": "music",
+      "subtitle": "Playing ganjadisc music"
     }
   ],
   "language_map": {
     "en_us": {
+      "subtitles.ganjadisc": "Playing ganjadisc music",
       "item.ganjacraft.weedmantest_spawn_egg": "Weedman Spawn Egg",
-      "subtitles.ganjadisc": "Ganjadisc music",
       "block.ganjacraft.weedcrop5top": "Weedcrop stage 5 top",
       "advancements.ediblesadvancement.title": "Is it a good idea to eat that ?",
       "advancements.ediblesadvancement.descr": "You have mad cannabutter, be carefull with edibles they always finish by kicking hard.",
       "block.ganjacraft.weedcrop5": "Weedcrop stage 5 bottom",
-      "item.ganjacraft.indicabud": "Indica Bud",
-      "item.ganjacraft.ganjadisc.desc": "Good reggae vibe man",
-      "block.ganjacraft.weedcrop6": "Weedcrop stage 6 bottom",
       "subtitles.coughing": "coughing",
-      "entity.ganjacraft.weedmantest": "Weedman",
+      "block.ganjacraft.weedcrop6": "Weedcrop stage 6 bottom",
+      "item.ganjacraft.ganjadisc.desc": "Good reggae vibe man",
+      "item.ganjacraft.indicabud": "Indica Bud",
       "block.ganjacraft.weedcrop7": "Weedcrop stage 7 bottom",
+      "entity.ganjacraft.weedmantest": "Weedman",
       "block.ganjacraft.weedcrop": "Weed Plant stage 0",
       "item.ganjacraft.hempoutfit_chestplate": "Hemp Outfit Body",
       "item.ganjacraft.hempoutfitboots": "Hemp Outfit Boots",
       "item.ganjacraft.hempoutfit_helmet": "Hemp Hat",
-      "item.ganjacraft.hempbrick": "Hemp Brick",
       "item.ganjacraft.hempstem": "Hemp stem",
+      "item.ganjacraft.hempbrick": "Hemp Brick",
       "itemGroup.tabganjacraftcreativetab": "Ganja Craft",
       "item.ganjacraft.hempoutfit_leggings": "Hemp Harem Pants",
       "advancements.hemptextilachivements.title": "Hemp Crafter",
       "block.ganjacraft.weedcrop6top": "Weedcrop stage 6 top",
       "advancements.weedgroweradvancement.descr": "You can do a lot of thing with the cannabis plant, so before rolling your spliff try to craft other stuff",
-      "advancements.hempbrickadvancement.descr": "Did you know hemp can do really good isolating and  non-flammable bricks ?",
+      "advancements.hempbrickadvancement.descr": "Did you know hemp can do really good isolating and non-flammable hempcrete, bricks or planks ?",
       "block.ganjacraft.weedcrop1": "Weedcrop stage 1",
       "block.ganjacraft.weedcrop2": "Weedcrop stage 2",
       "block.ganjacraft.weedcrop3": "Weed crop stage 3",
@@ -1271,7 +1800,9 @@
       "subtitles.smoking": "smoking spliff",
       "block.ganjacraft.weedcrop7top": "Weedcrop stage 7 top",
       "item.ganjacraft.hempoutfitbody": "Hemp Outfit Body",
+      "block.ganjacraft.hempcrete_powder": "Hempcrete Powder",
       "item.ganjacraft.hempoutfitlegs": "Hemp Sarouel",
+      "block.ganjacraft.hempcrete_block": "Hempcrete Block",
       "item.ganjacraft.hempoutfithelmet": "Hemp Hat",
       "block.ganjacraft.hempbale": "Hemp Bale",
       "item.ganjacraft.cannabutteritem": "Cannabutter",
@@ -1282,6 +1813,7 @@
       "subtitles.randomcoughing": "Coughing",
       "item.ganjacraft.magiccookie": "Magic Cookie",
       "subtitles.bonghit": "hitting bong",
+      "item.ganjacraft.hempcrete": "Hempcrete",
       "advancements.weedgroweradvancement.title": "Weed Grower",
       "advancements.hempbrickadvancement.title": "Hemp Builder",
       "item.ganjacraft.hempsmoothie": "Hemp Smoothie",
@@ -1293,6 +1825,70 @@
       "item.ganjacraft.weedseeds": "Cannabis Seeds",
       "item.ganjacraft.emptybong": "Empty Bong",
       "block.ganjacraft.hempbricksslab": "Hemp Bricks Slab",
+      "item.ganjacraft.indicabong": "Indica Bong"
+    },
+    "fr_fr": {
+      "item.ganjacraft.weedmantest_spawn_egg": "Weedman Spawn Egg",
+      "subtitles.ganjadisc": "Musique du ganjadisc",
+      "block.ganjacraft.weedcrop5top": "Weedcrop stage 5 top",
+      "advancements.ediblesadvancement.title": "Est-ce une bonne idée de manger ça ?",
+      "advancements.ediblesadvancement.descr": "Vous avez fait du beurre de Marrakech, attention avec ça, la space bouffe finit toujours par taper fort.",
+      "block.ganjacraft.weedcrop5": "Weedcrop stage 5 bottom",
+      "item.ganjacraft.indicabud": "Fleur d\u0027indica",
+      "item.ganjacraft.ganjadisc.desc": "Du bon son root",
+      "block.ganjacraft.weedcrop6": "Weedcrop stage 6 bottom",
+      "subtitles.coughing": "tousse",
+      "entity.ganjacraft.weedmantest": "Weedman",
+      "block.ganjacraft.weedcrop7": "Weedcrop stage 7 bottom",
+      "block.ganjacraft.weedcrop": "Weed Plant stage 0",
+      "item.ganjacraft.hempoutfit_chestplate": "Chemise en chanvre",
+      "item.ganjacraft.hempoutfitboots": "Chaussure en chanvre",
+      "item.ganjacraft.hempoutfit_helmet": "Bonnet en chanvre",
+      "item.ganjacraft.hempbrick": "Brique de chanvre",
+      "item.ganjacraft.hempstem": "Tige de chanvre",
+      "itemGroup.tabganjacraftcreativetab": "GanjaCraft",
+      "item.ganjacraft.hempoutfit_leggings": "Sarouel en chanvre",
+      "advancements.hemptextilachivements.title": "Artisan du chanvre",
+      "block.ganjacraft.weedcrop6top": "Weedcrop stage 6 top",
+      "advancements.weedgroweradvancement.descr": "Vous pouvez faire beaucoup de choses avec la plante de cannabis, alors avant de rouler votre spliff, essayez de fabriquer d\u0027autres trucs",
+      "advancements.hempbrickadvancement.descr": "Saviez-vous que le chanvre peut faire de très bonnes briques isolantes et ininflammables ?",
+      "block.ganjacraft.weedcrop1": "Weedcrop stage 1",
+      "block.ganjacraft.weedcrop2": "Weedcrop stage 2",
+      "block.ganjacraft.weedcrop3": "Weed crop stage 3",
+      "item.ganjacraft.indicaspliff": "Spliff d\u0027indica",
+      "block.ganjacraft.hempbricksstairs": "Escalier en brique de chanvre",
+      "block.ganjacraft.weedcrop4": "Weedcrop stage 4",
+      "advancements.cannabisseedsadvancement.descr": "Essayez de planter vos graines et récoltez votre première plante de cannabis !",
+      "item.ganjacraft.goldencannapple": "Cannapomme dorée",
+      "item.ganjacraft.hempoutfit_boots": "Chaussure en chanvre",
+      "subtitles.smoking": "Fume le spliff",
+      "block.ganjacraft.weedcrop7top": "Weedcrop stage 7 top",
+      "item.ganjacraft.hempoutfitbody": "Chemise en chanvre",
+      "block.ganjacraft.hempcrete_powder": "Hempcrete Powder",
+      "item.ganjacraft.hempoutfitlegs": "Sarouel en chanvre",
+      "block.ganjacraft.hempcrete_block": "Hempcrete Block",
+      "item.ganjacraft.hempoutfithelmet": "Bonnet en chanvre",
+      "block.ganjacraft.hempbale": "Botte de chanvre",
+      "item.ganjacraft.cannabutteritem": "Beurre de Marrakech",
+      "block.ganjacraft.hempbricks": "Briques de chanvre",
+      "item.ganjacraft.hempfiberitem": "Fibre de chanvre",
+      "item.ganjacraft.goldencannarot": "Cannarot dorée",
+      "item.ganjacraft.weedmantest": "Weedman Spawn Egg",
+      "subtitles.randomcoughing": "Tousse",
+      "item.ganjacraft.magiccookie": "Cookie Magique",
+      "subtitles.bonghit": "Douille de bong",
+      "item.ganjacraft.hempcrete": "Hempcrete",
+      "advancements.weedgroweradvancement.title": "Cultivateur",
+      "advancements.hempbrickadvancement.title": "Maçon du chanvre",
+      "item.ganjacraft.hempsmoothie": "Jus de chanvre",
+      "item.ganjacraft.ganjadisc": "Ganja Disc",
+      "block.ganjacraft.weedcrop4top": "Weedcrop stage 4 top",
+      "block.ganjacraft.hempbrickswall": "Mur en briques de chanvre",
+      "advancements.hemptextilachivements.descr": "Saviez-vous que vous pouvez faire des textiles et du papier de haute qualité en utilisant du chanvre ? Et il consomme moins d\u0027eau que le coton :)",
+      "advancements.cannabisseedsadvancement.title": "Un nouveau monde avec GanjaCraft",
+      "item.ganjacraft.weedseeds": "Graines de cannabis",
+      "item.ganjacraft.emptybong": "Bong vide",
+      "block.ganjacraft.hempbricksslab": "Dalle en briques de chanvre",
       "item.ganjacraft.indicabong": "Indica Bong"
     }
   },
@@ -1322,26 +1918,30 @@
       {
         "name": "procedure",
         "children": []
+      },
+      {
+        "name": "Paintings",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "ganjacraft",
     "modName": "GanjaCraft",
-    "version": "0.3.2",
+    "version": "0.4",
     "description": "Add useful and funny weed related content to the game",
     "author": "Warlon Mhite",
     "websiteURL": "https://github.com/warlon-mhite/ganjacraft",
-    "license": "Not specified",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "ganjacraft-logobanner",
+    "modPicture": "ganjacraft_logobanner",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "mod by Warlon mhite",
     "modElementsPackage": "net.mcreator.ganjacraft",
     "lockBaseModFiles": false
   },

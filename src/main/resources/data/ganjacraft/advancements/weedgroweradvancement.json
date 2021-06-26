@@ -35,9 +35,9 @@
     "recipes": [
       "ganjacraft:hempfiber",
       "ganjacraft:stickrecipe",
-      "ganjacraft:hempbrickrecipe",
       "ganjacraft:greendye",
-      "ganjacraft:hempbalerecipe"
+      "ganjacraft:hempbalerecipe",
+      "ganjacraft:hempcrete_recipe"
     ]
   },
   "parent": "ganjacraft:cannabisseedsadvancement"

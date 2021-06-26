@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "concrete",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#8"
+      },
+      {
+        "value": "CUSTOM:Hempcrete"
+      },
+      {
+        "value": "CUSTOM:Hempcrete"
+      },
+      {
+        "value": "CUSTOM:Hempcrete"
+      },
+      {
+        "value": "CUSTOM:Hempcrete"
+      },
+      {
+        "value": "CUSTOM:Hempcrete"
+      },
+      {
+        "value": "CUSTOM:Hempcrete"
+      },
+      {
+        "value": "CUSTOM:Hempcrete"
+      },
+      {
+        "value": "CUSTOM:Hempcrete"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.CONCRETE_POWDER#8"
+    },
+    "name": "gray_concrete_recipe",
+    "namespace": "mod"
+  }
+}

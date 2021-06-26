@@ -3,9 +3,9 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Hemp Builder",
-    "achievementDescription": "Did you know hemp can do really good isolating and  non-flammable bricks ?",
+    "achievementDescription": "Did you know hemp can do really good isolating and non-flammable hempcrete, bricks or planks ?",
     "achievementIcon": {
-      "value": "CUSTOM:HempBrick"
+      "value": "CUSTOM:Hempcrete"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -15,7 +15,24 @@
     "rewardLoot": [],
     "rewardRecipes": [
       "HempBricksRecipe",
-      "FlowerPotRecipe"
+      "FlowerPotRecipe",
+      "HempBrickRecipe",
+      "ConcreteRecipe",
+      "OrangeConcreteRecipe",
+      "MagentaConcreteRecipe",
+      "LightBlueConcreteRecipe",
+      "YellowConcreteRecipe",
+      "LimeConcreteRecipe",
+      "PinkConcreteRecipe",
+      "GrayConcreteRecipe",
+      "LightGrayConcreteRecipe",
+      "CyanConcreteRecipe",
+      "PurpleConcreteRecipe",
+      "BlueConcreteRecipe",
+      "BrownConcreteRecipe",
+      "GreenConcreteRecipe",
+      "RedConcreteRecipe",
+      "BlackConcreteRecipe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 10,

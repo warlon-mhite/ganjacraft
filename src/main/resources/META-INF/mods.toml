@@ -1,12 +1,12 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Not specified"
+license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="ganjacraft"
-version="0.3.2"
+version="0.4"
 displayName="GanjaCraft"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="mod by Warlon mhite"
 displayURL="https://github.com/warlon-mhite/ganjacraft"
 logoFile="logo.png"
 authors="Warlon Mhite"

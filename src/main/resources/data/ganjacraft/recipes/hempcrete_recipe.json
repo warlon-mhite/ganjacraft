@@ -1,0 +1,26 @@
+{
+  "group": "hempcrete",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hempstem"
+    },
+    "1": {
+      "item": "ganjacraft:hempstem"
+    },
+    "2": {
+      "item": "ganjacraft:hempstem"
+    },
+    "3": {
+      "item": "ganjacraft:hempstem"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hempcrete",
+    "count": 2
+  }
+}

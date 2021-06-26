@@ -1,0 +1,42 @@
+{
+  "group": "concrete",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_dye"
+    },
+    "1": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "2": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "3": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "4": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "5": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "6": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "7": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "8": {
+      "item": "ganjacraft:hempcrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_concrete_powder",
+    "count": 4
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ganjacraft:items/hemphat"
+    "layer0": "ganjacraft:items/hemp_beannie"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "hempcrete",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HempStem"
+      },
+      {
+        "value": "CUSTOM:HempStem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HempStem"
+      },
+      {
+        "value": "CUSTOM:HempStem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Hempcrete"
+    },
+    "name": "hempcrete_recipe",
+    "namespace": "mod"
+  }
+}

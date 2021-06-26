@@ -46,11 +46,11 @@ public class GanjacraftModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public GanjacraftModElements() {
 		sounds.put(new ResourceLocation("ganjacraft", "smoking"), new net.minecraft.util.SoundEvent(new ResourceLocation("ganjacraft", "smoking")));
-		sounds.put(new ResourceLocation("ganjacraft", "ganjadisc"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("ganjacraft", "ganjadisc")));
 		sounds.put(new ResourceLocation("ganjacraft", "bonghit"), new net.minecraft.util.SoundEvent(new ResourceLocation("ganjacraft", "bonghit")));
 		sounds.put(new ResourceLocation("ganjacraft", "randomcoughing"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("ganjacraft", "randomcoughing")));
+		sounds.put(new ResourceLocation("ganjacraft", "ganjadisc"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("ganjacraft", "ganjadisc")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("ganjacraft").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

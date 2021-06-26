@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "ganjacraft:hempbrick"
+      "item": "ganjacraft:hempcrete"
     },
     "title": {
       "translate": "advancements.hempbrickadvancement.title"
@@ -23,7 +23,24 @@
     "experience": 10,
     "recipes": [
       "ganjacraft:hempbricksrecipe",
-      "ganjacraft:flower_pot_recipe"
+      "ganjacraft:flower_pot_recipe",
+      "ganjacraft:hempbrickrecipe",
+      "ganjacraft:concrete_recipe",
+      "ganjacraft:orange_concrete_recipe",
+      "ganjacraft:magenta_concrete_recipe",
+      "ganjacraft:light_blue_concrete_recipe",
+      "ganjacraft:yellow_concrete_recipe",
+      "ganjacraft:lime_concrete_recipe",
+      "ganjacraft:pink_concrete_recipe",
+      "ganjacraft:gray_concrete_recipe",
+      "ganjacraft:light_gray_concrete_recipe",
+      "ganjacraft:cyan_concrete_recipe",
+      "ganjacraft:purple_concrete_recipe",
+      "ganjacraft:blue_concrete_recipe",
+      "ganjacraft:brown_concrete_recipe",
+      "ganjacraft:green_concrete_recipe",
+      "ganjacraft:red_concrete_recipe",
+      "ganjacraft:black_concrete_recipe"
     ]
   },
   "parent": "ganjacraft:weedgroweradvancement"

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ganjacraft:blocks/hempcrete_block",
+    "up": "ganjacraft:blocks/hempcrete_block",
+    "north": "ganjacraft:blocks/hempcrete_block",
+    "east": "ganjacraft:blocks/hempcrete_block",
+    "south": "ganjacraft:blocks/hempcrete_block",
+    "west": "ganjacraft:blocks/hempcrete_block",
+    "particle": "ganjacraft:blocks/hempcrete_block"
+  }
+}

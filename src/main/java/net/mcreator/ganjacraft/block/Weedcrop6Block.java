@@ -97,7 +97,7 @@ public class Weedcrop6Block extends GanjacraftModElements.ModElement {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

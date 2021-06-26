@@ -3,11 +3,11 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "hemphat",
+    "textureHelmet": "hemp_beannie",
     "enableBody": true,
-    "textureBody": "hempbody",
+    "textureBody": "hemp_body",
     "enableLeggings": true,
-    "textureLeggings": "hempsarouel",
+    "textureLeggings": "hemp_harempants",
     "enableBoots": false,
     "textureBoots": "",
     "creativeTab": {

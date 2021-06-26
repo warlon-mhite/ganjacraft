@@ -1,0 +1,9 @@
+{
+  "_fv": 18,
+  "_type": "painting",
+  "definition": {
+    "texture": "snoopdogg-painting32x64.png",
+    "width": 64,
+    "height": 32
+  }
+}

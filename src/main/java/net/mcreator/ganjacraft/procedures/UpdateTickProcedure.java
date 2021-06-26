@@ -216,7 +216,7 @@ public class UpdateTickProcedure extends GanjacraftModElements.ModElement {
 						return tileEntity.getTileData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "growthTimer")) >= 20)) {
+			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "growthTimer")) >= 450)) {
 				randomGrowth = (double) Math.random();
 				if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == WeedcropBlock.block.getDefaultState().getBlock())) {
 					if (((randomGrowth) >= 0.66)) {

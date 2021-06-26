@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "ganjacraft:blocks/indica_crop_s6-bottom",
-    "particle": "ganjacraft:blocks/indica_crop_s6-bottom"
+    "cross": "ganjacraft:blocks/indicastage6bottom",
+    "particle": "ganjacraft:blocks/indicastage6bottom"
   }
 }
