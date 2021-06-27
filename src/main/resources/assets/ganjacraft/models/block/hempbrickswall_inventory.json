@@ -1,7 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "ganjacraft:blocks/hempbrickstexture",
-    "particle": "ganjacraft:blocks/hempbrickstexture"
-  }
-}

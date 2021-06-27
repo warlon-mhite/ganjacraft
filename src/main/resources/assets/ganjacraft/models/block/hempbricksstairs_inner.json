@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "ganjacraft:blocks/hempbrickstexture",
-    "top": "ganjacraft:blocks/hempbrickstexture",
-    "side": "ganjacraft:blocks/hempbrickstexture"
-  }
-}
