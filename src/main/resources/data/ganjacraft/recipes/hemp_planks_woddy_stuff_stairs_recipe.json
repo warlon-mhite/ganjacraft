@@ -1,0 +1,33 @@
+{
+  "group": "ganjacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hemp_planks_woddy_stuff_planks"
+    },
+    "3": {
+      "item": "ganjacraft:hemp_planks_woddy_stuff_planks"
+    },
+    "4": {
+      "item": "ganjacraft:hemp_planks_woddy_stuff_planks"
+    },
+    "6": {
+      "item": "ganjacraft:hemp_planks_woddy_stuff_planks"
+    },
+    "7": {
+      "item": "ganjacraft:hemp_planks_woddy_stuff_planks"
+    },
+    "8": {
+      "item": "ganjacraft:hemp_planks_woddy_stuff_planks"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hemp_planks_woddy_stuff_stairs",
+    "count": 4
+  }
+}
