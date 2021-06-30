@@ -4,17 +4,21 @@ Made with MCreator under no chemical influences of any sort :)<br/>
 The cannabis plant is a renewable way to craft bricks, paper, wool, sticks (planed to add a few more in the future.)<br/>
 I do not encourage recreationnal marijuana or illegal drugs uses ! This is in-game content made for fun.<br/>
 Refer to your country legislation.<br/>
+![indica cannapdate logo](https://i.imgur.com/XK1ZKuR.png)
+This is a beta release textures, craft recipes, mechanics, etc... may change in the future with feedbacks and my vision of the v1.0 of this mod. If you want to work on the project, just contact me :)
 <br/>
 <ul>FEATURES :</ul>
-<li>Plant and harvest indica cannabis
-<li>Indica grows 2 blocks high (tick to high and bad temporary texture atm)
-<li>smoke indica spliff (restistance)
-<li>harvest hemp stemp and indica buds
-<li>use hemp stem and hemp bale as fuel
-<li>GanjaDisc
-<li>smoke indica bong (stronger resistance)
-<li>eating edibles
-<li>advancements
+<li>Plant and harvest indica cannabis</li>
+<li>Indica grows 2 blocks high</li>
+<li>smoke indica spliff (restistance)</li>
+<li>harvest hemp stemp and indica buds</li>
+<li>use hemp stem and hemp bale as fuel</li>
+<li>GanjaDisc</li>
+<li>smoke indica bong (stronger resistance)</li>
+<li>eating edibles</li>
+<li>advancements</li>
+<li>21 new paintings</li>
+<li>Hempcrete</li>
 <br/>
 <br/>
 <ul>NEW CRAFTS : </ul>
@@ -33,6 +37,7 @@ Refer to your country legislation.<br/>
 <li>golden cannaple</li>
 <li>golden cannarot</li>
 <li>hemp smoothie</li>
+<li>Concrete Powder (all colors)</li>
 
 <br/>
 <ul>ALTERNATIVES CRAFTS :</ul>
@@ -41,23 +46,22 @@ Refer to your country legislation.<br/>
 <li>Stick</li>
 <li>Green Dye</li>
 <br/>
+<ul>Languages supported :</ul>
+<li>English en_us</li>
+<li>Français fr_fr</li>
 <br/>
 <br/>
 <ul>UPCOMMING :</ul>
 <li>Sativa cannabis</li>
 <li>CBD cannabis</li>
-<li>Paintings</li>
 <li>Hemp planks</li>
 <li>Hemp bed</li>
 <li>Hemp fence</li>
 <li>Hemp fencegate</li>
 <li>Hemp trapdoor</li>
 <li>Hemp door</li>
-<li>Hempcrete</li>
-<li>Green Concrete powder (alt recipe)</li>
 <li>Spawnable structures with loot</li>
 <li>Original Sound for GanjaDisc</li>
-<li>French translation</li>
 <li>and even more +++</li>
 
 You will be able to add this mod in your modpack but you will have to mention it.
