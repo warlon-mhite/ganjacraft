@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ganjacraft:items/fullbong"
+    "layer0": "ganjacraft:items/packed_glass_bong"
   }
 }

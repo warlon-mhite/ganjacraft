@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "seeds",
+    "texture": "packed_pipe",
     "customModelName": "Normal",
-    "name": "Cannabis Seeds",
+    "name": "Indica pipe",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:GanjaCraftCreativeTab"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -28,9 +28,6 @@
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "SeedsRightClick"
-    }
+    "inventoryStackSize": 64
   }
 }

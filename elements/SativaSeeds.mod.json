@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "seeds",
     "customModelName": "Normal",
-    "name": "Cannabis Seeds",
+    "name": "Sativa Seeds",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:GanjaCraftCreativeTab"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -28,9 +28,6 @@
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "SeedsRightClick"
-    }
+    "inventoryStackSize": 64
   }
 }

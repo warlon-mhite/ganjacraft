@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HempPlanksWoddyStuffPlanks"
+      },
+      {
+        "value": "CUSTOM:HempPlanksWoddyStuffPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HempPlanksWoddyStuffPlanks"
+      },
+      {
+        "value": "CUSTOM:HempPlanksWoddyStuffPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HempPlanksWoddyStuffPlanks"
+      },
+      {
+        "value": "CUSTOM:HempPlanksWoddyStuffPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HempDoor"
+    },
+    "name": "hemp_door_recipe",
+    "namespace": "mod"
+  }
+}

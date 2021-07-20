@@ -4,14 +4,14 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="ganjacraft"
-version="0.4"
+version="0.5"
 displayName="GanjaCraft"
 credits="mod by Warlon mhite"
 displayURL="https://github.com/warlon-mhite/ganjacraft"
 logoFile="logo.png"
 authors="Warlon Mhite"
 description='''
-Add useful and funny weed related content to the game
+The most advanced stoner mod in MineCraft history
 '''
 
 [[dependencies.ganjacraft]]

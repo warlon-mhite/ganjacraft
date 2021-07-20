@@ -1793,7 +1793,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hemp_planks_woddy_stuff_planks_recipe",
-      "path": "~/blocks"
+      "path": "~/recipe"
     },
     {
       "name": "HempPlanksWoddyStuffStairsRecipe",
@@ -1803,7 +1803,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hemp_planks_woddy_stuff_stairs_recipe",
-      "path": "~/blocks"
+      "path": "~/recipe"
     },
     {
       "name": "HempPlanksWoddyStuffSlabRecipe",
@@ -1813,7 +1813,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hemp_planks_woddy_stuff_slab_recipe",
-      "path": "~/blocks"
+      "path": "~/recipe"
     },
     {
       "name": "HempPlanksWoddyStuffFenceRecipe",
@@ -1823,7 +1823,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hemp_planks_woddy_stuff_fence_recipe",
-      "path": "~/blocks"
+      "path": "~/recipe"
     },
     {
       "name": "HempPlanksWoddyStuffFenceGateRecipe",
@@ -1833,7 +1833,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hemp_planks_woddy_stuff_fence_gate_recipe",
-      "path": "~/blocks"
+      "path": "~/recipe"
     },
     {
       "name": "HempPlanksWoddyStuffStickRecipe",
@@ -1843,7 +1843,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hemp_planks_woddy_stuff_stick_recipe",
-      "path": "~/blocks"
+      "path": "~/recipe"
     },
     {
       "name": "HempcretePowderRecipe",
@@ -1894,6 +1894,106 @@
       "ids": {},
       "registry_name": "cookie_alt_recipe",
       "path": "~/recipe"
+    },
+    {
+      "name": "HempDoor",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_door",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempDoorRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_door_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "WeedPipe",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_pipe",
+      "path": "~/items"
+    },
+    {
+      "name": "IndicaPipe",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "indica_pipe",
+      "path": "~/items"
+    },
+    {
+      "name": "WoodenPipeRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_pipe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "WoodenPipeHempplanksRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_pipe_hempplanks_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "WoodenPipeRecipeMiror",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_pipe_recipe_miror",
+      "path": "~/recipe"
+    },
+    {
+      "name": "WoodenPipehemplanksRecipeMiror",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_pipehemplanks_recipe_miror",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaSeeds",
+      "type": "item",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_seeds",
+      "path": "~/items"
+    },
+    {
+      "name": "Sativacrop",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop",
+      "path": "~/weed-crop"
     }
   ],
   "variable_elements": [],
@@ -1954,6 +2054,7 @@
       "item.ganjacraft.hempstem": "Hemp stem",
       "itemGroup.tabganjacraftcreativetab": "Ganja Craft",
       "item.ganjacraft.hempoutfit_leggings": "Hemp Harem Pants",
+      "block.ganjacraft.sativacrop": "Sativa stage 0",
       "advancements.hemptextilachivements.title": "Hemp Crafter",
       "block.ganjacraft.weedcrop6top": "Weedcrop stage 6 top",
       "advancements.weedgroweradvancement.descr": "You can do a lot of thing with the cannabis plant, so before rolling your spliff try to craft other stuff",
@@ -1980,6 +2081,7 @@
       "item.ganjacraft.hemp_flour": "Hemp Flour",
       "item.ganjacraft.cannabutteritem": "Cannabutter",
       "block.ganjacraft.hempbricks": "Hemp Bricks",
+      "item.ganjacraft.indica_pipe": "Indica pipe",
       "item.ganjacraft.hempfiberitem": "Hemp fiber",
       "item.ganjacraft.goldencannarot": "Golden Cannarot",
       "item.ganjacraft.weedmantest": "Weedman Spawn Egg",
@@ -1990,7 +2092,9 @@
       "item.ganjacraft.hempcrete": "Hempcrete",
       "advancements.weedgroweradvancement.title": "Weed Grower",
       "advancements.hempbrickadvancement.title": "Hemp Builder",
+      "block.ganjacraft.hemp_door": "Hemp Door",
       "item.ganjacraft.hempsmoothie": "Hemp Smoothie",
+      "item.ganjacraft.weed_pipe": "Wooden pipe",
       "item.ganjacraft.ganjadisc": "Ganja Disc",
       "block.ganjacraft.weedcrop4top": "Weedcrop stage 4 top",
       "block.ganjacraft.hempbrickswall": "Hemp Bricks Wall",
@@ -1999,6 +2103,7 @@
       "item.ganjacraft.weedseeds": "Cannabis Seeds",
       "item.ganjacraft.emptybong": "Empty Bong",
       "block.ganjacraft.hempbricksslab": "Hemp Bricks Slab",
+      "item.ganjacraft.sativa_seeds": "Sativa Seeds",
       "block.ganjacraft.hemp_planks_woddy_stuff_fence_gate": "HempPlanksWoddyStuff Fence Gate",
       "item.ganjacraft.indicabong": "Indica Bong"
     },
@@ -2024,6 +2129,7 @@
       "item.ganjacraft.hempbrick": "Brique de chanvre",
       "itemGroup.tabganjacraftcreativetab": "GanjaCraft",
       "item.ganjacraft.hempoutfit_leggings": "Sarouel en chanvre",
+      "block.ganjacraft.sativacrop": "Sativa stage 0",
       "advancements.hemptextilachivements.title": "Artisan du chanvre",
       "block.ganjacraft.weedcrop6top": "Weedcrop stage 6 top",
       "advancements.weedgroweradvancement.descr": "Vous pouvez faire beaucoup de choses avec la plante de cannabis, alors avant de rouler votre spliff, essayez de fabriquer d\u0027autres trucs",
@@ -2050,6 +2156,7 @@
       "item.ganjacraft.hemp_flour": "Hemp Flour",
       "item.ganjacraft.cannabutteritem": "Beurre de Marrakech",
       "block.ganjacraft.hempbricks": "Briques de chanvre",
+      "item.ganjacraft.indica_pipe": "Indica pipe",
       "item.ganjacraft.hempfiberitem": "Fibre de chanvre",
       "item.ganjacraft.goldencannarot": "Cannarot dorée",
       "item.ganjacraft.weedmantest": "Weedman Spawn Egg",
@@ -2060,7 +2167,9 @@
       "item.ganjacraft.hempcrete": "Hempcrete",
       "advancements.weedgroweradvancement.title": "Cultivateur",
       "advancements.hempbrickadvancement.title": "Maçon du chanvre",
+      "block.ganjacraft.hemp_door": "Hemp Door",
       "item.ganjacraft.hempsmoothie": "Jus de chanvre",
+      "item.ganjacraft.weed_pipe": "Wooden pipe",
       "item.ganjacraft.ganjadisc": "Ganja Disc",
       "block.ganjacraft.weedcrop4top": "Weedcrop stage 4 top",
       "block.ganjacraft.hempbrickswall": "Mur en briques de chanvre",
@@ -2069,6 +2178,7 @@
       "item.ganjacraft.weedseeds": "Graines de cannabis",
       "item.ganjacraft.emptybong": "Bong vide",
       "block.ganjacraft.hempbricksslab": "Dalle en briques de chanvre",
+      "item.ganjacraft.sativa_seeds": "Sativa Seeds",
       "block.ganjacraft.hemp_planks_woddy_stuff_fence_gate": "HempPlanksWoddyStuff Fence Gate",
       "item.ganjacraft.indicabong": "Indica Bong"
     }
@@ -2109,8 +2219,8 @@
   "workspaceSettings": {
     "modid": "ganjacraft",
     "modName": "GanjaCraft",
-    "version": "0.4",
-    "description": "Add useful and funny weed related content to the game",
+    "version": "0.5",
+    "description": "The most advanced stoner mod in MineCraft history",
     "author": "Warlon Mhite",
     "websiteURL": "https://github.com/warlon-mhite/ganjacraft",
     "license": "GNU General Public License version 3 (GPLv3)",

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "seeds",
+    "texture": "pipe",
     "customModelName": "Normal",
-    "name": "Cannabis Seeds",
+    "name": "Wooden pipe",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:GanjaCraftCreativeTab"
@@ -28,9 +28,6 @@
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "SeedsRightClick"
-    }
+    "inventoryStackSize": 64
   }
 }

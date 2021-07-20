@@ -20,6 +20,7 @@
   "item.ganjacraft.hempstem": "Hemp stem",
   "itemGroup.tabganjacraftcreativetab": "Ganja Craft",
   "item.ganjacraft.hempoutfit_leggings": "Hemp Harem Pants",
+  "block.ganjacraft.sativacrop": "Sativa stage 0",
   "advancements.hemptextilachivements.title": "Hemp Crafter",
   "block.ganjacraft.weedcrop6top": "Weedcrop stage 6 top",
   "advancements.weedgroweradvancement.descr": "You can do a lot of thing with the cannabis plant, so before rolling your spliff try to craft other stuff",
@@ -46,6 +47,7 @@
   "item.ganjacraft.hemp_flour": "Hemp Flour",
   "item.ganjacraft.cannabutteritem": "Cannabutter",
   "block.ganjacraft.hempbricks": "Hemp Bricks",
+  "item.ganjacraft.indica_pipe": "Indica pipe",
   "item.ganjacraft.hempfiberitem": "Hemp fiber",
   "item.ganjacraft.goldencannarot": "Golden Cannarot",
   "item.ganjacraft.weedmantest": "Weedman Spawn Egg",
@@ -56,7 +58,9 @@
   "item.ganjacraft.hempcrete": "Hempcrete",
   "advancements.weedgroweradvancement.title": "Weed Grower",
   "advancements.hempbrickadvancement.title": "Hemp Builder",
+  "block.ganjacraft.hemp_door": "Hemp Door",
   "item.ganjacraft.hempsmoothie": "Hemp Smoothie",
+  "item.ganjacraft.weed_pipe": "Wooden pipe",
   "item.ganjacraft.ganjadisc": "Ganja Disc",
   "block.ganjacraft.weedcrop4top": "Weedcrop stage 4 top",
   "block.ganjacraft.hempbrickswall": "Hemp Bricks Wall",
@@ -65,6 +69,7 @@
   "item.ganjacraft.weedseeds": "Cannabis Seeds",
   "item.ganjacraft.emptybong": "Empty Bong",
   "block.ganjacraft.hempbricksslab": "Hemp Bricks Slab",
+  "item.ganjacraft.sativa_seeds": "Sativa Seeds",
   "block.ganjacraft.hemp_planks_woddy_stuff_fence_gate": "HempPlanksWoddyStuff Fence Gate",
   "item.ganjacraft.indicabong": "Indica Bong"
 }
