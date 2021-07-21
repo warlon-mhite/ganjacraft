@@ -29,7 +29,7 @@ public class HempOutfitItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:hempoutfit_boots")
 	public static final Item boots = null;
 	public HempOutfitItem(GanjacraftModElements instance) {
-		super(instance, 19);
+		super(instance, 28);
 	}
 
 	@Override

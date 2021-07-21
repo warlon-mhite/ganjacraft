@@ -28,7 +28,7 @@ public class SativaSpliffItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:sativa_spliff")
 	public static final Item block = null;
 	public SativaSpliffItem(GanjacraftModElements instance) {
-		super(instance, 202);
+		super(instance, 20);
 	}
 
 	@Override

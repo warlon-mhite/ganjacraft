@@ -32,7 +32,7 @@ public class HempcretePowderBlock extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:hempcrete_powder")
 	public static final Block block = null;
 	public HempcretePowderBlock(GanjacraftModElements instance) {
-		super(instance, 138);
+		super(instance, 31);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ import java.util.Map;
 @GanjacraftModElements.ModElement.Tag
 public class SativaSpliffEffectProcedure extends GanjacraftModElements.ModElement {
 	public SativaSpliffEffectProcedure(GanjacraftModElements instance) {
-		super(instance, 203);
+		super(instance, 198);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -8,7 +8,7 @@
     "name": "Sativa Seeds",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:GanjaCraftCreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -28,6 +28,9 @@
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64
+    "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "SativaSeedsRightClick"
+    }
   }
 }

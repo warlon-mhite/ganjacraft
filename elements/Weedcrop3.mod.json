@@ -104,9 +104,6 @@
     "onTickUpdate": {
       "name": "UpdateTick"
     },
-    "onDestroyedByPlayer": {
-      "name": "GrowingCropBlowingByExplosion"
-    },
     "onDestroyedByExplosion": {
       "name": "GrowingCropBlowingByExplosion"
     },

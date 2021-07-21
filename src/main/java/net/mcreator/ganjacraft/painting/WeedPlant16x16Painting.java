@@ -12,7 +12,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class WeedPlant16x16Painting extends GanjacraftModElements.ModElement {
 	public WeedPlant16x16Painting(GanjacraftModElements instance) {
-		super(instance, 111);
+		super(instance, 127);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

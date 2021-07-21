@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "packed_glass_bong",
     "customModelName": "Normal",
-    "name": "Indica Bong",
+    "name": "Indica bong",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:GanjaCraftCreativeTab"

@@ -12,7 +12,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class SmokingLadyVintage32x48Painting extends GanjacraftModElements.ModElement {
 	public SmokingLadyVintage32x48Painting(GanjacraftModElements instance) {
-		super(instance, 100);
+		super(instance, 116);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

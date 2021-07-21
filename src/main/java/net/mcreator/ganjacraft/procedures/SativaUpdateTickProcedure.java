@@ -32,7 +32,7 @@ import java.util.HashMap;
 @GanjacraftModElements.ModElement.Tag
 public class SativaUpdateTickProcedure extends GanjacraftModElements.ModElement {
 	public SativaUpdateTickProcedure(GanjacraftModElements instance) {
-		super(instance, 191);
+		super(instance, 190);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -232,7 +232,7 @@ public class SativaUpdateTickProcedure extends GanjacraftModElements.ModElement 
 						return tileEntity.getTileData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "growthTimer")) >= 450)) {
+			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "growthTimer")) >= 20)) {
 				randomGrowth = (double) Math.random();
 				if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == SativacropBlock.block.getDefaultState()
 						.getBlock())) {

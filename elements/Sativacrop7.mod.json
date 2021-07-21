@@ -48,7 +48,7 @@
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
@@ -69,7 +69,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": true,
     "soundOnStep": {
       "value": "PLANT"
@@ -101,6 +101,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "Break2BlocksUpCrop"
+    },
+    "onTickUpdate": {
+      "name": "SativaUpdateTick"
+    },
+    "onDestroyedByPlayer": {
+      "name": "SativaGrownCropByPlayer"
+    },
+    "onDestroyedByExplosion": {
+      "name": "SativaGrownCropByExplosion"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

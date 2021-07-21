@@ -25,7 +25,7 @@ public class GoldenCannappleItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:goldencannapple")
 	public static final Item block = null;
 	public GoldenCannappleItem(GanjacraftModElements instance) {
-		super(instance, 17);
+		super(instance, 26);
 	}
 
 	@Override

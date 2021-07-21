@@ -12,7 +12,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class Rihanna32x32Painting extends GanjacraftModElements.ModElement {
 	public Rihanna32x32Painting(GanjacraftModElements instance) {
-		super(instance, 99);
+		super(instance, 115);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

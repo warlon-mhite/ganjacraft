@@ -16,7 +16,7 @@ public class CannabutterItemItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:cannabutteritem")
 	public static final Item block = null;
 	public CannabutterItemItem(GanjacraftModElements instance) {
-		super(instance, 15);
+		super(instance, 24);
 	}
 
 	@Override

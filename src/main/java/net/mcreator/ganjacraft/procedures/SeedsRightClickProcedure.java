@@ -18,7 +18,7 @@ import java.util.Map;
 @GanjacraftModElements.ModElement.Tag
 public class SeedsRightClickProcedure extends GanjacraftModElements.ModElement {
 	public SeedsRightClickProcedure(GanjacraftModElements instance) {
-		super(instance, 36);
+		super(instance, 55);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

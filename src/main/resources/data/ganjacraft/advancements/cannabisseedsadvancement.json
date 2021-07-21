@@ -17,18 +17,7 @@
   },
   "criteria": {
     "cannabisseedsadvancement": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "ganjacraft:weedseeds",
-            "count": {
-              "min": 1,
-              "max": 64
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {

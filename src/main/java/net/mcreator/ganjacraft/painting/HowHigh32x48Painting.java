@@ -12,7 +12,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class HowHigh32x48Painting extends GanjacraftModElements.ModElement {
 	public HowHigh32x48Painting(GanjacraftModElements instance) {
-		super(instance, 115);
+		super(instance, 131);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

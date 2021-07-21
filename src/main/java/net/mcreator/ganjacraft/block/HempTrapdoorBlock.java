@@ -32,7 +32,7 @@ public class HempTrapdoorBlock extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:hemp_trapdoor")
 	public static final Block block = null;
 	public HempTrapdoorBlock(GanjacraftModElements instance) {
-		super(instance, 174);
+		super(instance, 39);
 	}
 
 	@Override

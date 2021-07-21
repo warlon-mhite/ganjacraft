@@ -44,7 +44,6 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.ChestContainer;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.ISidedInventory;
-import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -77,7 +76,7 @@ public class Weedcrop2Block extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:weedcrop2")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public Weedcrop2Block(GanjacraftModElements instance) {
-		super(instance, 24);
+		super(instance, 43);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -112,7 +111,7 @@ public class Weedcrop2Block extends GanjacraftModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(0, 0.016, 0, 16, 10, 16)).withOffset(offset.x, offset.y, offset.z);
+			return VoxelShapes.or(makeCuboidShape(0, 0.016, 0, 16, 16, 16)).withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override
@@ -172,23 +171,6 @@ public class Weedcrop2Block extends GanjacraftModElements.ModElement {
 				UpdateTickProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1);
-		}
-
-		@Override
-		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
-			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				GrowingCropBlowingByExplosionProcedure.executeProcedure($_dependencies);
-			}
-			return retval;
 		}
 
 		@Override

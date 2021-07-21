@@ -16,7 +16,7 @@ public class SativaBudItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:sativa_bud")
 	public static final Item block = null;
 	public SativaBudItem(GanjacraftModElements instance) {
-		super(instance, 195);
+		super(instance, 13);
 	}
 
 	@Override

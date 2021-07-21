@@ -11,11 +11,14 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.world.Explosion;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.RayTraceResult;
@@ -37,11 +40,13 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.ChestContainer;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.ISidedInventory;
+import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.Minecraft;
+import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
@@ -49,6 +54,10 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.ganjacraft.procedures.WeedParticlesSpawnProcedure;
+import net.mcreator.ganjacraft.procedures.SativaUpdateTickProcedure;
+import net.mcreator.ganjacraft.procedures.SativaGrownCropByPlayerProcedure;
+import net.mcreator.ganjacraft.procedures.SativaGrownCropByExplosionProcedure;
+import net.mcreator.ganjacraft.procedures.Break2BlocksDownCropProcedure;
 import net.mcreator.ganjacraft.particle.CannabisLeafParticleParticle;
 import net.mcreator.ganjacraft.item.SativaSeedsItem;
 import net.mcreator.ganjacraft.GanjacraftModElements;
@@ -57,7 +66,9 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 import com.google.common.collect.ImmutableMap;
@@ -69,7 +80,7 @@ public class Sativacrop7topBlock extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:sativacrop_7top")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public Sativacrop7topBlock(GanjacraftModElements instance) {
-		super(instance, 188);
+		super(instance, 187);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -117,11 +128,66 @@ public class Sativacrop7topBlock extends GanjacraftModElements.ModElement {
 		}
 
 		@Override
+		public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction direction, IPlantable plantable) {
+			return true;
+		}
+
+		@Override
+		public PushReaction getPushReaction(BlockState state) {
+			return PushReaction.DESTROY;
+		}
+
+		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(SativaSeedsItem.block, (int) (1)));
+		}
+
+		@Override
+		public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean moving) {
+			super.onBlockAdded(state, world, pos, oldState, moving);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1);
+		}
+
+		@Override
+		public void neighborChanged(BlockState state, World world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+			super.neighborChanged(state, world, pos, neighborBlock, fromPos, moving);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
+			} else {
+			}
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				Break2BlocksDownCropProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
+		public void tick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+			super.tick(state, world, pos, random);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				SativaUpdateTickProcedure.executeProcedure($_dependencies);
+			}
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1);
 		}
 
 		@OnlyIn(Dist.CLIENT)
@@ -143,6 +209,40 @@ public class Sativacrop7topBlock extends GanjacraftModElements.ModElement {
 					double d5 = (random.nextFloat() - 0.5D) * 0.5D;
 					world.addParticle(CannabisLeafParticleParticle.particle, d0, d1, d2, d3, d4, d5);
 				}
+		}
+
+		@Override
+		public boolean removedByPlayer(BlockState state, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
+			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest, fluid);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				SativaGrownCropByPlayerProcedure.executeProcedure($_dependencies);
+			}
+			return retval;
+		}
+
+		@Override
+		public void onExplosionDestroy(World world, BlockPos pos, Explosion e) {
+			super.onExplosionDestroy(world, pos, e);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				SativaGrownCropByExplosionProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

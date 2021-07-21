@@ -28,7 +28,7 @@ public class SativaPipeItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:sativa_pipe")
 	public static final Item block = null;
 	public SativaPipeItem(GanjacraftModElements instance) {
-		super(instance, 208);
+		super(instance, 21);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class CookedSeedsItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:cooked_seeds")
 	public static final Item block = null;
 	public CookedSeedsItem(GanjacraftModElements instance) {
-		super(instance, 196);
+		super(instance, 3);
 	}
 
 	@Override

@@ -101,6 +101,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "SativaUpdateTick"
+    },
+    "onDestroyedByExplosion": {
+      "name": "SativaGrowingCropByExplosion"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

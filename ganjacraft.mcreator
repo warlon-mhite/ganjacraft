@@ -13,7 +13,7 @@
     {
       "name": "Weedcrop",
       "type": "block",
-      "sortid": 22,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "Weedcrop1",
       "type": "block",
-      "sortid": 23,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "Weedcrop2",
       "type": "block",
-      "sortid": 24,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "Weedcrop3",
       "type": "block",
-      "sortid": 25,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "Spliff",
       "type": "item",
-      "sortid": 11,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -59,7 +59,7 @@
     {
       "name": "JointRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -68,7 +68,7 @@
     {
       "name": "HempStem",
       "type": "item",
-      "sortid": 2,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -77,7 +77,7 @@
     {
       "name": "HempFiber",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -86,7 +86,7 @@
     {
       "name": "HempFiberItem",
       "type": "item",
-      "sortid": 4,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -95,7 +95,7 @@
     {
       "name": "WoolRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -104,7 +104,7 @@
     {
       "name": "PaperRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -113,7 +113,7 @@
     {
       "name": "HempBricks",
       "type": "block",
-      "sortid": 7,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -122,7 +122,7 @@
     {
       "name": "HempStemFuel",
       "type": "fuel",
-      "sortid": 30,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -131,7 +131,7 @@
     {
       "name": "StringRecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -140,7 +140,7 @@
     {
       "name": "StickRecipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -149,7 +149,7 @@
     {
       "name": "HempBricksRecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -158,7 +158,7 @@
     {
       "name": "HempBrick",
       "type": "item",
-      "sortid": 6,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -167,7 +167,7 @@
     {
       "name": "HempBrickRecipe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -176,7 +176,7 @@
     {
       "name": "HempBale",
       "type": "block",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -185,7 +185,7 @@
     {
       "name": "HempBaleRecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -194,7 +194,7 @@
     {
       "name": "SeedsRightClick",
       "type": "procedure",
-      "sortid": 36,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -227,7 +227,7 @@
     {
       "name": "GrassBrokenGivesSeeds",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -256,7 +256,7 @@
     {
       "name": "GrowingCropBlowingByExplosion",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -285,7 +285,7 @@
     {
       "name": "GrownCropByExplosion",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -314,7 +314,7 @@
     {
       "name": "UpdateTick",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -343,7 +343,7 @@
     {
       "name": "GrownCropByPlayer",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -376,7 +376,7 @@
     {
       "name": "GanjaDisc",
       "type": "musicdisc",
-      "sortid": 20,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -385,7 +385,7 @@
     {
       "name": "IndicaBud",
       "type": "item",
-      "sortid": 3,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -394,7 +394,7 @@
     {
       "name": "IndicaSpliffEffect",
       "type": "procedure",
-      "sortid": 42,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -427,7 +427,7 @@
     {
       "name": "HempOutfit",
       "type": "armor",
-      "sortid": 19,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -442,7 +442,7 @@
     {
       "name": "EmptyBong",
       "type": "item",
-      "sortid": 12,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -451,7 +451,7 @@
     {
       "name": "IndicaBong",
       "type": "item",
-      "sortid": 13,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -460,7 +460,7 @@
     {
       "name": "BongRecipe",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -469,7 +469,7 @@
     {
       "name": "IndicaBongRecipe",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -478,7 +478,7 @@
     {
       "name": "IndicaBongHit",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -511,7 +511,7 @@
     {
       "name": "HempBaleFuel",
       "type": "fuel",
-      "sortid": 46,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -520,7 +520,7 @@
     {
       "name": "GreenDye",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -529,7 +529,7 @@
     {
       "name": "HempHatRecipe",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -538,7 +538,7 @@
     {
       "name": "HempOutfitBodyRecipe",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -547,7 +547,7 @@
     {
       "name": "HempSarouelRecipe",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -556,7 +556,7 @@
     {
       "name": "HempBricksSlab",
       "type": "block",
-      "sortid": 8,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -565,7 +565,7 @@
     {
       "name": "HempBricksStairs",
       "type": "block",
-      "sortid": 9,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -574,7 +574,7 @@
     {
       "name": "HempBricksWall",
       "type": "block",
-      "sortid": 10,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -583,7 +583,7 @@
     {
       "name": "WeedGrowerAdvancement",
       "type": "achievement",
-      "sortid": 51,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -592,7 +592,7 @@
     {
       "name": "HempTextilAchivements",
       "type": "achievement",
-      "sortid": 52,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -601,7 +601,7 @@
     {
       "name": "HempBrickAdvancement",
       "type": "achievement",
-      "sortid": 53,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -610,7 +610,7 @@
     {
       "name": "HempBricksStairsRecipe",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -619,7 +619,7 @@
     {
       "name": "HempBricksStairsRecipe2",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -628,7 +628,7 @@
     {
       "name": "HempBricksSlabRecipe",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -637,7 +637,7 @@
     {
       "name": "HempBricksSlabRecipe2",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -646,7 +646,7 @@
     {
       "name": "HempBricksWallRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -655,7 +655,7 @@
     {
       "name": "HempBricksWallRecipe2",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -664,7 +664,7 @@
     {
       "name": "GanjaCraftCreativeTab",
       "type": "tab",
-      "sortid": 60,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -672,7 +672,7 @@
     {
       "name": "WeedmanTest",
       "type": "mob",
-      "sortid": 21,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -680,7 +680,7 @@
     {
       "name": "CannabutterItem",
       "type": "item",
-      "sortid": 15,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -689,7 +689,7 @@
     {
       "name": "MagicCookie",
       "type": "food",
-      "sortid": 16,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -698,7 +698,7 @@
     {
       "name": "MagicCookieRecipe",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -707,7 +707,7 @@
     {
       "name": "CannabisSeedsAdvancement",
       "type": "achievement",
-      "sortid": 63,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -716,7 +716,7 @@
     {
       "name": "LootTable",
       "type": "loottable",
-      "sortid": 64,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -724,7 +724,7 @@
     {
       "name": "EdiblesAdvancement",
       "type": "achievement",
-      "sortid": 65,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -733,7 +733,7 @@
     {
       "name": "CannabutterRecipe2",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -742,7 +742,7 @@
     {
       "name": "MagicCookieEffects",
       "type": "procedure",
-      "sortid": 67,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -759,7 +759,7 @@
     {
       "name": "HempFiberCraftedAdvancement",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -780,7 +780,7 @@
     {
       "name": "HempBrickCraftedAdvancement",
       "type": "procedure",
-      "sortid": 69,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -801,7 +801,7 @@
     {
       "name": "CannabutterCraftedAdvancement",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -822,7 +822,7 @@
     {
       "name": "Weedcrop4",
       "type": "block",
-      "sortid": 71,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -831,7 +831,7 @@
     {
       "name": "Weedcrop4top",
       "type": "block",
-      "sortid": 72,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -840,7 +840,7 @@
     {
       "name": "Weedcrop5top",
       "type": "block",
-      "sortid": 73,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -849,7 +849,7 @@
     {
       "name": "Weedcrop6",
       "type": "block",
-      "sortid": 74,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -858,7 +858,7 @@
     {
       "name": "Weedcrop6top",
       "type": "block",
-      "sortid": 75,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -867,7 +867,7 @@
     {
       "name": "Weedcrop7",
       "type": "block",
-      "sortid": 76,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -876,7 +876,7 @@
     {
       "name": "Weedcrop7top",
       "type": "block",
-      "sortid": 77,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -885,7 +885,7 @@
     {
       "name": "GoldenCannapple",
       "type": "food",
-      "sortid": 17,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -894,7 +894,7 @@
     {
       "name": "GoldenCannarot",
       "type": "food",
-      "sortid": 18,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -903,7 +903,7 @@
     {
       "name": "GoldenCannappleRecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -912,7 +912,7 @@
     {
       "name": "GoldenCannarotRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -921,7 +921,7 @@
     {
       "name": "HempSmoothie",
       "type": "food",
-      "sortid": 14,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -930,7 +930,7 @@
     {
       "name": "HempSmoothieRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -939,7 +939,7 @@
     {
       "name": "Weedcrop5",
       "type": "block",
-      "sortid": 81,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -948,7 +948,7 @@
     {
       "name": "StartTimer",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -965,7 +965,7 @@
     {
       "name": "GoldenCannapleEffects",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -983,7 +983,7 @@
     {
       "name": "GoldenCannarotEffects",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1001,7 +1001,7 @@
     {
       "name": "StartTimerGA",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1019,7 +1019,7 @@
     {
       "name": "StartTimerGC",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1037,7 +1037,7 @@
     {
       "name": "FlowerPotRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1047,7 +1047,7 @@
     {
       "name": "BreakUnderBlockCrop",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1077,7 +1077,7 @@
     {
       "name": "BreakUpperBlockCrop",
       "type": "procedure",
-      "sortid": 90,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1107,7 +1107,7 @@
     {
       "name": "GrownCropByPlayerBreakCropBlockUnder",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1141,7 +1141,7 @@
     {
       "name": "WeedOnFireBreaksBottom",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1171,7 +1171,7 @@
     {
       "name": "WeedOnFireBreakUpperBlock",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1201,7 +1201,7 @@
     {
       "name": "BernardRappaz64x64",
       "type": "painting",
-      "sortid": 95,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1211,7 +1211,7 @@
     {
       "name": "BobMarley48x48",
       "type": "painting",
-      "sortid": 96,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1221,7 +1221,7 @@
     {
       "name": "BobMarley48x64",
       "type": "painting",
-      "sortid": 97,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1231,7 +1231,7 @@
     {
       "name": "PineappleExpress48x64",
       "type": "painting",
-      "sortid": 98,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1241,7 +1241,7 @@
     {
       "name": "Rihanna32x32",
       "type": "painting",
-      "sortid": 99,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1251,7 +1251,7 @@
     {
       "name": "SmokingLadyVintage32x48",
       "type": "painting",
-      "sortid": 100,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1261,7 +1261,7 @@
     {
       "name": "SnoopDogg32x64",
       "type": "painting",
-      "sortid": 101,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1271,7 +1271,7 @@
     {
       "name": "SnoopDogg48x48",
       "type": "painting",
-      "sortid": 102,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1281,7 +1281,7 @@
     {
       "name": "TheDude32x48",
       "type": "painting",
-      "sortid": 103,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1291,7 +1291,7 @@
     {
       "name": "VWt248x32",
       "type": "painting",
-      "sortid": 104,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1301,7 +1301,7 @@
     {
       "name": "WeedLeaf32x32",
       "type": "painting",
-      "sortid": 105,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1311,7 +1311,7 @@
     {
       "name": "WeedPlant32x32",
       "type": "painting",
-      "sortid": 106,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1321,7 +1321,7 @@
     {
       "name": "WeedPlant64x96",
       "type": "painting",
-      "sortid": 107,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1331,7 +1331,7 @@
     {
       "name": "WeedPlant264x96",
       "type": "painting",
-      "sortid": 108,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1341,7 +1341,7 @@
     {
       "name": "WeedPlant364x96",
       "type": "painting",
-      "sortid": 109,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1351,7 +1351,7 @@
     {
       "name": "WeedPlant16x32",
       "type": "painting",
-      "sortid": 110,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1361,7 +1361,7 @@
     {
       "name": "WeedPlant16x16",
       "type": "painting",
-      "sortid": 111,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1371,7 +1371,7 @@
     {
       "name": "CannabisLeafParticle",
       "type": "particle",
-      "sortid": 112,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1381,7 +1381,7 @@
     {
       "name": "WeedParticlesSpawn",
       "type": "procedure",
-      "sortid": 113,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1412,7 +1412,7 @@
     {
       "name": "CreeperLootGanjaDisc",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1450,7 +1450,7 @@
     {
       "name": "HowHigh32x48",
       "type": "painting",
-      "sortid": 115,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1460,7 +1460,7 @@
     {
       "name": "UpInSmoke32x48",
       "type": "painting",
-      "sortid": 116,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1470,7 +1470,7 @@
     {
       "name": "Hendrix32x32",
       "type": "painting",
-      "sortid": 117,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1480,7 +1480,7 @@
     {
       "name": "Hendrix48x48",
       "type": "painting",
-      "sortid": 118,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1490,7 +1490,7 @@
     {
       "name": "IndicaPlantSpawning",
       "type": "structure",
-      "sortid": 119,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1499,7 +1499,7 @@
     {
       "name": "Hempcrete",
       "type": "item",
-      "sortid": 120,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1509,7 +1509,7 @@
     {
       "name": "HempcreteRecipe",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1519,7 +1519,7 @@
     {
       "name": "ConcreteRecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1529,7 +1529,7 @@
     {
       "name": "OrangeConcreteRecipe",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1539,7 +1539,7 @@
     {
       "name": "MagentaConcreteRecipe",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1549,7 +1549,7 @@
     {
       "name": "LightBlueConcreteRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1559,7 +1559,7 @@
     {
       "name": "YellowConcreteRecipe",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1569,7 +1569,7 @@
     {
       "name": "LimeConcreteRecipe",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1579,7 +1579,7 @@
     {
       "name": "PinkConcreteRecipe",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1589,7 +1589,7 @@
     {
       "name": "GrayConcreteRecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1599,7 +1599,7 @@
     {
       "name": "LightGrayConcreteRecipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1609,7 +1609,7 @@
     {
       "name": "CyanConcreteRecipe",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1619,7 +1619,7 @@
     {
       "name": "PurpleConcreteRecipe",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1629,7 +1629,7 @@
     {
       "name": "BlueConcreteRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1639,7 +1639,7 @@
     {
       "name": "BrownConcreteRecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1649,7 +1649,7 @@
     {
       "name": "GreenConcreteRecipe",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1659,7 +1659,7 @@
     {
       "name": "RedConcreteRecipe",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1669,7 +1669,7 @@
     {
       "name": "BlackConcreteRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1679,7 +1679,7 @@
     {
       "name": "HempcretePowder",
       "type": "block",
-      "sortid": 138,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1689,7 +1689,7 @@
     {
       "name": "HempcreteBlock",
       "type": "block",
-      "sortid": 139,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1699,7 +1699,7 @@
     {
       "name": "HempcretePowderUpdateTick",
       "type": "procedure",
-      "sortid": 140,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1729,7 +1729,7 @@
     {
       "name": "HempPlanksWoddyStuffPlanks",
       "type": "block",
-      "sortid": 143,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1739,7 +1739,7 @@
     {
       "name": "HempPlanksWoddyStuffStairs",
       "type": "block",
-      "sortid": 145,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1749,7 +1749,7 @@
     {
       "name": "HempPlanksWoddyStuffSlab",
       "type": "block",
-      "sortid": 146,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1759,7 +1759,7 @@
     {
       "name": "HempPlanksWoddyStuffFence",
       "type": "block",
-      "sortid": 147,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1769,7 +1769,7 @@
     {
       "name": "HempPlanksWoddyStuffFenceGate",
       "type": "block",
-      "sortid": 148,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1779,7 +1779,7 @@
     {
       "name": "HempPlanksWoddyStuffItemsTag",
       "type": "tag",
-      "sortid": 149,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1788,7 +1788,7 @@
     {
       "name": "HempPlanksWoddyStuffPlanksRecipe",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1798,7 +1798,7 @@
     {
       "name": "HempPlanksWoddyStuffStairsRecipe",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1808,7 +1808,7 @@
     {
       "name": "HempPlanksWoddyStuffSlabRecipe",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1818,7 +1818,7 @@
     {
       "name": "HempPlanksWoddyStuffFenceRecipe",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1828,7 +1828,7 @@
     {
       "name": "HempPlanksWoddyStuffFenceGateRecipe",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1838,7 +1838,7 @@
     {
       "name": "HempPlanksWoddyStuffStickRecipe",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1848,7 +1848,7 @@
     {
       "name": "HempcretePowderRecipe",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1858,7 +1858,7 @@
     {
       "name": "HempFlour",
       "type": "item",
-      "sortid": 158,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1868,7 +1868,7 @@
     {
       "name": "HempFlourRecipe",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1878,7 +1878,7 @@
     {
       "name": "BreadAltRecipe",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1888,7 +1888,7 @@
     {
       "name": "CookieAltRecipe",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1898,7 +1898,7 @@
     {
       "name": "HempDoor",
       "type": "block",
-      "sortid": 162,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1908,7 +1908,7 @@
     {
       "name": "HempDoorRecipe",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1918,7 +1918,7 @@
     {
       "name": "WeedPipe",
       "type": "item",
-      "sortid": 164,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1928,7 +1928,7 @@
     {
       "name": "IndicaPipe",
       "type": "item",
-      "sortid": 165,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1978,7 +1978,7 @@
     {
       "name": "SativaSeeds",
       "type": "item",
-      "sortid": 170,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2028,7 +2028,7 @@
     {
       "name": "HempTrapdoor",
       "type": "block",
-      "sortid": 174,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2038,7 +2038,7 @@
     {
       "name": "HempTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2048,7 +2048,7 @@
     {
       "name": "Sativacrop1",
       "type": "block",
-      "sortid": 176,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2058,7 +2058,7 @@
     {
       "name": "Sativacrop2",
       "type": "block",
-      "sortid": 177,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2068,7 +2068,7 @@
     {
       "name": "Sativacrop3",
       "type": "block",
-      "sortid": 178,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2078,7 +2078,7 @@
     {
       "name": "Sativacrop4",
       "type": "block",
-      "sortid": 179,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2088,7 +2088,7 @@
     {
       "name": "Sativacrop4top",
       "type": "block",
-      "sortid": 180,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2098,7 +2098,7 @@
     {
       "name": "Sativacrop5",
       "type": "block",
-      "sortid": 181,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2108,7 +2108,7 @@
     {
       "name": "Sativacrop5top",
       "type": "block",
-      "sortid": 182,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2118,7 +2118,7 @@
     {
       "name": "Sativacrop6",
       "type": "block",
-      "sortid": 183,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2128,7 +2128,7 @@
     {
       "name": "Sativacrop6middle",
       "type": "block",
-      "sortid": 184,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2138,7 +2138,7 @@
     {
       "name": "Sativacrop6top",
       "type": "block",
-      "sortid": 185,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2148,7 +2148,7 @@
     {
       "name": "Sativacrop7",
       "type": "block",
-      "sortid": 186,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2158,7 +2158,7 @@
     {
       "name": "Sativacrop7middle",
       "type": "block",
-      "sortid": 187,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2168,7 +2168,7 @@
     {
       "name": "Sativacrop7top",
       "type": "block",
-      "sortid": 188,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2178,7 +2178,7 @@
     {
       "name": "SativaSeedsRightClick",
       "type": "procedure",
-      "sortid": 189,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2212,7 +2212,7 @@
     {
       "name": "IndicaPipeEffects",
       "type": "procedure",
-      "sortid": 190,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2246,7 +2246,7 @@
     {
       "name": "SativaUpdateTick",
       "type": "procedure",
-      "sortid": 191,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2276,7 +2276,7 @@
     {
       "name": "SativaGrowingCropByExplosion",
       "type": "procedure",
-      "sortid": 192,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2306,7 +2306,7 @@
     {
       "name": "SativaGrownCropByExplosion",
       "type": "procedure",
-      "sortid": 193,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2336,7 +2336,7 @@
     {
       "name": "SativaGrownCropByPlayer",
       "type": "procedure",
-      "sortid": 194,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2370,7 +2370,7 @@
     {
       "name": "SativaBud",
       "type": "item",
-      "sortid": 195,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2380,7 +2380,7 @@
     {
       "name": "CookedSeeds",
       "type": "food",
-      "sortid": 196,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2390,7 +2390,7 @@
     {
       "name": "CookedSeedsRecipe",
       "type": "recipe",
-      "sortid": 197,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2400,7 +2400,7 @@
     {
       "name": "CookedSeedsRecipeFireCamp",
       "type": "recipe",
-      "sortid": 199,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2410,7 +2410,7 @@
     {
       "name": "CookedSeedsRecipeCampFire",
       "type": "recipe",
-      "sortid": 200,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2420,7 +2420,7 @@
     {
       "name": "CookedSeedsRecipe2",
       "type": "recipe",
-      "sortid": 201,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2430,7 +2430,7 @@
     {
       "name": "SativaSpliff",
       "type": "item",
-      "sortid": 202,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2440,7 +2440,7 @@
     {
       "name": "SativaSpliffEffect",
       "type": "procedure",
-      "sortid": 203,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2474,7 +2474,7 @@
     {
       "name": "SativaBongHit",
       "type": "procedure",
-      "sortid": 204,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2508,7 +2508,7 @@
     {
       "name": "CannabutterRecipe",
       "type": "recipe",
-      "sortid": 205,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2518,7 +2518,7 @@
     {
       "name": "SativaSpliffRecipe",
       "type": "recipe",
-      "sortid": 206,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2528,7 +2528,7 @@
     {
       "name": "SativaBong",
       "type": "item",
-      "sortid": 207,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2538,7 +2538,7 @@
     {
       "name": "SativaPipe",
       "type": "item",
-      "sortid": 208,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2548,7 +2548,7 @@
     {
       "name": "SativaPipeEffects",
       "type": "procedure",
-      "sortid": 209,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2582,7 +2582,7 @@
     {
       "name": "SativaAdvancement",
       "type": "achievement",
-      "sortid": 210,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2592,11 +2592,169 @@
     {
       "name": "SativaBongRecipe",
       "type": "recipe",
-      "sortid": 211,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "sativa_bong_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaPipeRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_pipe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BreakUpAndDownBlockCrop",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "break_up_and_down_block_crop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Break2BlocksDownCrop",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "break_2_blocks_down_crop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Break2BlocksUpCrop",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "break_2_blocks_up_crop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "WeedOnFireBreak2Bottom",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_on_fire_break_2_bottom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SeedsAdvancement",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seeds_advancement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "HempFlourSativa",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_flour_sativa",
       "path": "~/recipe"
     }
   ],
@@ -2644,7 +2802,7 @@
       "subtitles.coughing": "coughing",
       "item.ganjacraft.ganjadisc.desc": "Good reggae vibe man",
       "entity.ganjacraft.weedmantest": "Weedman",
-      "item.ganjacraft.sativa_bong": "Sativa Bong",
+      "item.ganjacraft.sativa_bong": "Sativa bong",
       "item.ganjacraft.sativa_pipe": "Sativa pipe",
       "item.ganjacraft.hempoutfit_chestplate": "Hemp Shirt",
       "item.ganjacraft.hempoutfitboots": "Hemp Outfit Boots",
@@ -2652,11 +2810,11 @@
       "item.ganjacraft.hempoutfit_leggings": "Hemp Harem Pants",
       "advancements.hemptextilachivements.title": "Hemp Crafter",
       "block.ganjacraft.weedcrop6top": "Weedcrop stage 6 top",
-      "advancements.sativa_advancement.descr": "It\u0027s time to relax and smoke !",
+      "advancements.sativa_advancement.descr": "It\u0027s time to enjoy life and smoke !",
       "block.ganjacraft.sativacrop_6middle": "Sativa stage 4",
       "advancements.weedgroweradvancement.descr": "You can do a lot of thing with the cannabis plant, so before rolling your spliff try to craft other stuff",
       "item.ganjacraft.cooked_seeds": "Cooked cannabis seeds",
-      "item.ganjacraft.indicaspliff": "Indica Spliff",
+      "item.ganjacraft.indicaspliff": "Indica spliff",
       "item.ganjacraft.goldencannapple": "Golden Cannapple",
       "item.ganjacraft.hempoutfitbody": "Hemp Outfit Body",
       "block.ganjacraft.hempcrete_block": "Hempcrete Block",
@@ -2672,9 +2830,9 @@
       "item.ganjacraft.hempsmoothie": "Hemp Tea",
       "block.ganjacraft.sativacrop_6top": "Sativa stage 4",
       "advancements.hemptextilachivements.descr": "Did you know that you can do high quality textils and paper using hemp ? And it\u0027s less water-consumming than cotton :)",
-      "item.ganjacraft.weedseeds": "Cannabis Seeds",
+      "item.ganjacraft.weedseeds": "Indica cannabis seeds",
       "item.ganjacraft.emptybong": "Empty Bong",
-      "advancements.sativa_advancement.title": "Indica Adcancement",
+      "advancements.sativa_advancement.title": "Sativa Adcancement",
       "block.ganjacraft.hempbricksslab": "Hemp Bricks Slab",
       "item.ganjacraft.sativa_seeds": "Sativa Seeds",
       "block.ganjacraft.hemp_trapdoor": "Hemp Trapdoor",
@@ -2693,7 +2851,7 @@
       "block.ganjacraft.sativacrop_3": "Sativa stage 3",
       "block.ganjacraft.sativacrop_4": "Sativa stage 4",
       "block.ganjacraft.weedcrop": "Weed Plant stage 0",
-      "block.ganjacraft.hemp_planks_woddy_stuff_planks": "HempPlanksWoddyStuff Planks",
+      "block.ganjacraft.hemp_planks_woddy_stuff_planks": "Hemp planks",
       "item.ganjacraft.hempbrick": "Hemp Brick",
       "item.ganjacraft.hempstem": "Hemp stem",
       "itemGroup.tabganjacraftcreativetab": "Ganja Craft",
@@ -2701,13 +2859,13 @@
       "block.ganjacraft.sativacrop": "Sativa stage 0",
       "advancements.hempbrickadvancement.descr": "Did you know hemp can do really good isolating and non-flammable hempcrete, bricks or planks ?",
       "block.ganjacraft.weedcrop1": "Weedcrop stage 1",
-      "block.ganjacraft.hemp_planks_woddy_stuff_slab": "HempPlanksWoddyStuff Slab",
+      "block.ganjacraft.hemp_planks_woddy_stuff_slab": "Hemp planks slab",
       "block.ganjacraft.weedcrop2": "Weedcrop stage 2",
       "block.ganjacraft.weedcrop3": "Weed crop stage 3",
       "block.ganjacraft.hempbricksstairs": "Hemp Bricks Stairs",
       "block.ganjacraft.weedcrop4": "Weedcrop stage 4",
       "advancements.cannabisseedsadvancement.descr": "Try to plant your seeds and harvest your first weed plant !",
-      "block.ganjacraft.hemp_planks_woddy_stuff_fence": "HempPlanksWoddyStuff Fence",
+      "block.ganjacraft.hemp_planks_woddy_stuff_fence": "Hemp fence",
       "item.ganjacraft.hempoutfit_boots": "Hemp FlipFlop",
       "subtitles.smoking": "smoking spliff",
       "block.ganjacraft.weedcrop7top": "Weedcrop stage 7 top",
@@ -2722,17 +2880,17 @@
       "item.ganjacraft.hempfiberitem": "Hemp fiber",
       "item.ganjacraft.goldencannarot": "Golden Cannarot",
       "item.ganjacraft.weedmantest": "Weedman Spawn Egg",
-      "block.ganjacraft.hemp_planks_woddy_stuff_stairs": "HempPlanksWoddyStuff Stairs",
+      "block.ganjacraft.hemp_planks_woddy_stuff_stairs": "Hemp planks stairs",
       "advancements.indica_adcancement.descr": "It\u0027s time to relax and smoke !",
-      "block.ganjacraft.hemp_door": "Hemp Door",
+      "block.ganjacraft.hemp_door": "Hemp door",
       "item.ganjacraft.weed_pipe": "Wooden pipe",
       "item.ganjacraft.ganjadisc": "Ganja Disc",
       "block.ganjacraft.weedcrop4top": "Weedcrop stage 4 top",
       "block.ganjacraft.hempbrickswall": "Hemp Bricks Wall",
       "advancements.cannabisseedsadvancement.title": "A new world with GanjaCraft",
-      "item.ganjacraft.sativa_spliff": "Sativa Spliff",
-      "block.ganjacraft.hemp_planks_woddy_stuff_fence_gate": "HempPlanksWoddyStuff Fence Gate",
-      "item.ganjacraft.indicabong": "Indica Bong"
+      "item.ganjacraft.sativa_spliff": "Sativa spliff",
+      "block.ganjacraft.hemp_planks_woddy_stuff_fence_gate": "Hemp fence gate",
+      "item.ganjacraft.indicabong": "Indica bong"
     },
     "fr_fr": {
       "subtitles.ganjadisc": "Musique du ganjadisc",
@@ -2870,7 +3028,7 @@
     "modid": "ganjacraft",
     "modName": "GanjaCraft",
     "version": "0.5 sativa cannapdate",
-    "description": "The most advanced stoner mod in MineCraft history",
+    "description": "The most ambicious stoner mod in MineCraft history",
     "author": "Warlon Mhite",
     "websiteURL": "https://github.com/warlon-mhite/ganjacraft",
     "license": "GNU General Public License version 3 (GPLv3)",
@@ -2882,7 +3040,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "mod by Warlon mhite",
+    "credits": "contribute on github",
     "modElementsPackage": "net.mcreator.ganjacraft",
     "lockBaseModFiles": false
   },

@@ -20,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "item": "ganjacraft:indicabud",
+            "item": "ganjacraft:sativa_bud",
             "count": {
               "min": 1,
               "max": 64
@@ -33,11 +33,8 @@
   "rewards": {
     "experience": 1,
     "recipes": [
-      "ganjacraft:rolling_spliff",
-      "ganjacraft:bongrecipe",
-      "ganjacraft:indicabongrecipe",
-      "ganjacraft:cannabutterrecipe2",
-      "ganjacraft:hempsmoothierecipe"
+      "ganjacraft:cannabutter_recipe",
+      "ganjacraft:sativa_spliff_recipe"
     ]
   },
   "parent": "ganjacraft:weedgroweradvancement"

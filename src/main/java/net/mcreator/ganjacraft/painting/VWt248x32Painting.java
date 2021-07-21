@@ -12,7 +12,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class VWt248x32Painting extends GanjacraftModElements.ModElement {
 	public VWt248x32Painting(GanjacraftModElements instance) {
-		super(instance, 104);
+		super(instance, 120);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

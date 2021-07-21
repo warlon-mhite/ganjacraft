@@ -25,7 +25,7 @@ import java.util.Map;
 @GanjacraftModElements.ModElement.Tag
 public class IndicaPipeEffectsProcedure extends GanjacraftModElements.ModElement {
 	public IndicaPipeEffectsProcedure(GanjacraftModElements instance) {
-		super(instance, 190);
+		super(instance, 189);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

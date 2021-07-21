@@ -27,7 +27,7 @@ public class HempPlanksWoddyStuffPlanksBlock extends GanjacraftModElements.ModEl
 	@ObjectHolder("ganjacraft:hemp_planks_woddy_stuff_planks")
 	public static final Block block = null;
 	public HempPlanksWoddyStuffPlanksBlock(GanjacraftModElements instance) {
-		super(instance, 143);
+		super(instance, 33);
 	}
 
 	@Override

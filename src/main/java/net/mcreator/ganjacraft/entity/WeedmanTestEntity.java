@@ -41,7 +41,7 @@ public class WeedmanTestEntity extends GanjacraftModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.6f, 1.95f)).build("weedmantest").setRegistryName("weedmantest");
 	public WeedmanTestEntity(GanjacraftModElements instance) {
-		super(instance, 21);
+		super(instance, 29);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WeedmanTestRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -16,7 +16,7 @@ public class HempFlourItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:hemp_flour")
 	public static final Item block = null;
 	public HempFlourItem(GanjacraftModElements instance) {
-		super(instance, 158);
+		super(instance, 4);
 	}
 
 	@Override

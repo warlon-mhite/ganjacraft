@@ -15,7 +15,7 @@ import java.util.Comparator;
 @GanjacraftModElements.ModElement.Tag
 public class WeedParticlesSpawnProcedure extends GanjacraftModElements.ModElement {
 	public WeedParticlesSpawnProcedure(GanjacraftModElements instance) {
-		super(instance, 113);
+		super(instance, 129);
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {

@@ -81,7 +81,7 @@ public class Weedcrop7topBlock extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:weedcrop7top")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public Weedcrop7topBlock(GanjacraftModElements instance) {
-		super(instance, 77);
+		super(instance, 95);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

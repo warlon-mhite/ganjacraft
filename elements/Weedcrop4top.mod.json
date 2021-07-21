@@ -111,7 +111,7 @@
       "name": "BreakUnderBlockCrop"
     },
     "onDestroyedByExplosion": {
-      "name": "GrownCropByExplosion"
+      "name": "GrowingCropBlowingByExplosion"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
