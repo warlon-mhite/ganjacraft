@@ -32,7 +32,15 @@
       "BrownConcreteRecipe",
       "GreenConcreteRecipe",
       "RedConcreteRecipe",
-      "BlackConcreteRecipe"
+      "BlackConcreteRecipe",
+      "HempcretePowderRecipe",
+      "HempPlanksWoddyStuffPlanksRecipe",
+      "HempPlanksWoddyStuffStairsRecipe",
+      "HempPlanksWoddyStuffSlabRecipe",
+      "HempPlanksWoddyStuffFenceRecipe",
+      "HempPlanksWoddyStuffFenceGateRecipe",
+      "HempDoorRecipe",
+      "HempTrapdoorRecipe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 10,

@@ -1,0 +1,16 @@
+{
+  "group": "ganjacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ganjacraft:indicabud"
+    },
+    {
+      "item": "ganjacraft:weed_pipe"
+    }
+  ],
+  "result": {
+    "item": "ganjacraft:indica_pipe",
+    "count": 1
+  }
+}

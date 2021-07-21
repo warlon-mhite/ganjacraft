@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "packedbong",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SativaBud"
+      },
+      {
+        "value": "CUSTOM:SativaBud"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EmptyBong"
+      },
+      {
+        "value": "CUSTOM:SativaBud"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IndicaBong"
+    },
+    "name": "sativa_bong_recipe",
+    "namespace": "mod"
+  }
+}

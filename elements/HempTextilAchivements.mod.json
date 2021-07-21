@@ -19,7 +19,8 @@
       "StringRecipe",
       "HempHatRecipe",
       "HempOutfitBodyRecipe",
-      "HempSarouelRecipe"
+      "HempSarouelRecipe",
+      "FlipFlopRecipe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 10,

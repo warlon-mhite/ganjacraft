@@ -13,6 +13,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.ganjacraft.item.WeedseedsItem;
+import net.mcreator.ganjacraft.item.SativaSeedsItem;
 import net.mcreator.ganjacraft.GanjacraftModElements;
 import net.mcreator.ganjacraft.GanjacraftMod;
 
@@ -53,14 +54,24 @@ public class GrassBrokenGivesSeedsProcedure extends GanjacraftModElements.ModEle
 		IWorld world = (IWorld) dependencies.get("world");
 		double randomDrop = 0;
 		randomDrop = (double) Math.random();
-		if ((((randomDrop) >= 0.92) && (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.TALL_GRASS
+		if ((((randomDrop) >= 0.98) && (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.TALL_GRASS
 				.getDefaultState().getBlock())
 				|| ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.LARGE_FERN.getDefaultState().getBlock())))) {
-			if (world instanceof World && !world.isRemote()) {
-				ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-						new ItemStack(WeedseedsItem.block, (int) (1)));
-				entityToSpawn.setPickupDelay((int) 10);
-				world.addEntity(entityToSpawn);
+			randomDrop = (double) Math.random();
+			if (((randomDrop) >= 0.5)) {
+				if (world instanceof World && !world.isRemote()) {
+					ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
+							new ItemStack(WeedseedsItem.block, (int) (1)));
+					entityToSpawn.setPickupDelay((int) 10);
+					world.addEntity(entityToSpawn);
+				}
+			} else {
+				if (world instanceof World && !world.isRemote()) {
+					ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
+							new ItemStack(SativaSeedsItem.block, (int) (1)));
+					entityToSpawn.setPickupDelay((int) 10);
+					world.addEntity(entityToSpawn);
+				}
 			}
 		}
 	}

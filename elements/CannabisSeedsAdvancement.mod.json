@@ -13,7 +13,15 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "HempFlourRecipe",
+      "BreadAltRecipe",
+      "CookieAltRecipe",
+      "CookedSeedsRecipe",
+      "CookedSeedsRecipeFireCamp",
+      "CookedSeedsRecipeCampFire",
+      "CookedSeedsRecipe2"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 1,
     "achievementType": "task",

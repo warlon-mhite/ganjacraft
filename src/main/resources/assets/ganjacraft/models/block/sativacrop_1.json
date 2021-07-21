@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ganjacraft:blocks/sativastage1",
+    "particle": "ganjacraft:blocks/sativastage1"
+  }
+}

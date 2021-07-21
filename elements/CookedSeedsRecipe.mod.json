@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "cookedseeds",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Weedseeds"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedSeeds"
+    },
+    "name": "cooked_seeds_recipe",
+    "namespace": "mod"
+  }
+}
