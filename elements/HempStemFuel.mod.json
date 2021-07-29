@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "fuel",
   "definition": {
-    "power": 70,
+    "power": 50,
     "block": {
       "value": "CUSTOM:HempStem"
     }

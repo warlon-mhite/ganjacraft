@@ -101,14 +101,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": {
-      "name": "WeedOnFireBreaksBottom"
-    },
     "onTickUpdate": {
       "name": "SativaUpdateTick"
     },
     "onDestroyedByPlayer": {
-      "name": "Break2BlocksUpCrop"
+      "name": "SativaGrowingCropByExplosion"
     },
     "onDestroyedByExplosion": {
       "name": "SativaGrowingCropByExplosion"

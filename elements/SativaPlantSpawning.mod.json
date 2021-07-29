@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "structure",
   "definition": {
-    "structure": "wildindica",
+    "structure": "wildsativa",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 1500,
@@ -17,10 +17,10 @@
     ],
     "restrictionBlocks": [
       {
-        "value": "Blocks.GRASS"
+        "value": "Blocks.DIRT#0"
       },
       {
-        "value": "Blocks.DIRT#0"
+        "value": "Blocks.GRASS"
       }
     ],
     "restrictionBiomes": [
@@ -41,6 +41,18 @@
       },
       {
         "value": "jungle_hills"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "birch_forest_hills"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "extreme_hills_with_trees"
       },
       {
         "value": "mutated_plains"

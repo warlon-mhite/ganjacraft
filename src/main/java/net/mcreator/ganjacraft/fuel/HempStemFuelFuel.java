@@ -20,6 +20,6 @@ public class HempStemFuelFuel extends GanjacraftModElements.ModElement {
 	@SubscribeEvent
 	public void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {
 		if (event.getItemStack().getItem() == new ItemStack(HempStemItem.block, (int) (1)).getItem())
-			event.setBurnTime(70);
+			event.setBurnTime(50);
 	}
 }

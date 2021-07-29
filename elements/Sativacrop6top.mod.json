@@ -27,7 +27,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 16.0,
+        "My": 7.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -101,14 +101,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": {
-      "name": "WeedOnFireBreak2Bottom"
-    },
     "onTickUpdate": {
       "name": "SativaUpdateTick"
     },
     "onDestroyedByPlayer": {
-      "name": "Break2BlocksDownCrop"
+      "name": "SativaGrowingCropByExplosion"
     },
     "onDestroyedByExplosion": {
       "name": "SativaGrowingCropByExplosion"

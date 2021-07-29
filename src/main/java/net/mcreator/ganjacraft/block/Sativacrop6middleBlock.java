@@ -52,10 +52,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.ganjacraft.procedures.WeedOnFireBreaksBottomProcedure;
 import net.mcreator.ganjacraft.procedures.SativaUpdateTickProcedure;
 import net.mcreator.ganjacraft.procedures.SativaGrowingCropByExplosionProcedure;
-import net.mcreator.ganjacraft.procedures.BreakUpAndDownBlockCropProcedure;
 import net.mcreator.ganjacraft.item.SativaSeedsItem;
 import net.mcreator.ganjacraft.GanjacraftModElements;
 
@@ -151,25 +149,6 @@ public class Sativacrop6middleBlock extends GanjacraftModElements.ModElement {
 		}
 
 		@Override
-		public void neighborChanged(BlockState state, World world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
-			super.neighborChanged(state, world, pos, neighborBlock, fromPos, moving);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
-			} else {
-			}
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				WeedOnFireBreaksBottomProcedure.executeProcedure($_dependencies);
-			}
-		}
-
-		@Override
 		public void tick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
 			super.tick(state, world, pos, random);
 			int x = pos.getX();
@@ -198,7 +177,7 @@ public class Sativacrop6middleBlock extends GanjacraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				BreakUpAndDownBlockCropProcedure.executeProcedure($_dependencies);
+				SativaGrowingCropByExplosionProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}

@@ -21,6 +21,10 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.world.Explosion;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.NonNullList;
@@ -57,7 +61,6 @@ import net.mcreator.ganjacraft.procedures.WeedParticlesSpawnProcedure;
 import net.mcreator.ganjacraft.procedures.SativaUpdateTickProcedure;
 import net.mcreator.ganjacraft.procedures.SativaGrownCropByPlayerProcedure;
 import net.mcreator.ganjacraft.procedures.SativaGrownCropByExplosionProcedure;
-import net.mcreator.ganjacraft.procedures.Break2BlocksDownCropProcedure;
 import net.mcreator.ganjacraft.particle.CannabisLeafParticleParticle;
 import net.mcreator.ganjacraft.item.SativaSeedsItem;
 import net.mcreator.ganjacraft.GanjacraftModElements;
@@ -113,6 +116,12 @@ public class Sativacrop7topBlock extends GanjacraftModElements.ModElement {
 		}
 
 		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vector3d offset = state.getOffset(world, pos);
+			return VoxelShapes.or(makeCuboidShape(0, 0, 0, 16, 15, 16)).withOffset(offset.x, offset.y, offset.z);
+		}
+
+		@Override
 		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
 			return 100;
 		}
@@ -152,25 +161,6 @@ public class Sativacrop7topBlock extends GanjacraftModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1);
-		}
-
-		@Override
-		public void neighborChanged(BlockState state, World world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
-			super.neighborChanged(state, world, pos, neighborBlock, fromPos, moving);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
-			} else {
-			}
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				Break2BlocksDownCropProcedure.executeProcedure($_dependencies);
-			}
 		}
 
 		@Override

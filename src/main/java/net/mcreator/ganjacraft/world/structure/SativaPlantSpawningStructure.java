@@ -36,11 +36,11 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 import java.util.Random;
 
 @GanjacraftModElements.ModElement.Tag
-public class IndicaPlantSpawningStructure extends GanjacraftModElements.ModElement {
+public class SativaPlantSpawningStructure extends GanjacraftModElements.ModElement {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
-	public IndicaPlantSpawningStructure(GanjacraftModElements instance) {
-		super(instance, 135);
+	public SativaPlantSpawningStructure(GanjacraftModElements instance) {
+		super(instance, 213);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -67,9 +67,9 @@ public class IndicaPlantSpawningStructure extends GanjacraftModElements.ModEleme
 							j -= 1;
 							BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 							boolean blockCriteria = false;
-							if (blockAt.getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())
-								blockCriteria = true;
 							if (blockAt.getBlock() == Blocks.DIRT.getDefaultState().getBlock())
+								blockCriteria = true;
+							if (blockAt.getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())
 								blockCriteria = true;
 							if (!blockCriteria)
 								continue;
@@ -80,7 +80,7 @@ public class IndicaPlantSpawningStructure extends GanjacraftModElements.ModEleme
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("ganjacraft", "wildindica"));
+									.getTemplateDefaulted(new ResourceLocation("ganjacraft", "wildsativa"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo,
@@ -94,8 +94,8 @@ public class IndicaPlantSpawningStructure extends GanjacraftModElements.ModEleme
 			};
 			configuredFeature = feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG));
-			event.getRegistry().register(feature.setRegistryName("indica_plant_spawning"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("ganjacraft:indica_plant_spawning"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("sativa_plant_spawning"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("ganjacraft:sativa_plant_spawning"), configuredFeature);
 		}
 	}
 	@SubscribeEvent
@@ -112,6 +112,14 @@ public class IndicaPlantSpawningStructure extends GanjacraftModElements.ModEleme
 		if (new ResourceLocation("jungle").equals(event.getName()))
 			biomeCriteria = true;
 		if (new ResourceLocation("jungle_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("birch_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("birch_forest_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("dark_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("wooded_mountains").equals(event.getName()))
 			biomeCriteria = true;
 		if (new ResourceLocation("sunflower_plains").equals(event.getName()))
 			biomeCriteria = true;

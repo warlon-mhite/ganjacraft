@@ -77,7 +77,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "CUSTOM:CannabisLeafParticle"

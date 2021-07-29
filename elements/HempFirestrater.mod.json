@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "seeds",
+    "texture": "hempfirestarter",
     "customModelName": "Normal",
-    "name": "Sativa cannabis seeds",
+    "name": "Hemp firestrater",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:GanjaCraftCreativeTab"
@@ -28,9 +28,6 @@
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "SativaSeedsRightClick"
-    }
+    "inventoryStackSize": 64
   }
 }

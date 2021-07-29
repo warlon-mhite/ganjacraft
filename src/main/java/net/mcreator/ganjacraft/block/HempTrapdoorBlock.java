@@ -49,7 +49,7 @@ public class HempTrapdoorBlock extends GanjacraftModElements.ModElement {
 	}
 	public static class CustomBlock extends TrapDoorBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1.2f, 10f).setLightLevel(s -> 0).harvestLevel(1)
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1.2f, 10f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("hemp_trapdoor");
 		}

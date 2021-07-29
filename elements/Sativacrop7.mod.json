@@ -101,9 +101,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": {
-      "name": "Break2BlocksUpCrop"
-    },
     "onTickUpdate": {
       "name": "SativaUpdateTick"
     },

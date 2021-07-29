@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "ganjacraft:blocks/hempbale_block_top",
-    "up": "ganjacraft:blocks/hempbale_block_top",
+    "down": "ganjacraft:blocks/hempbale_block_top-new",
+    "up": "ganjacraft:blocks/hempbale_block_top-new",
     "north": "ganjacraft:blocks/hempbale-side-texture",
     "east": "ganjacraft:blocks/hempbale-side-texture",
     "south": "ganjacraft:blocks/hempbale-side-texture",
     "west": "ganjacraft:blocks/hempbale-side-texture",
-    "particle": "ganjacraft:blocks/hempbale_block_top"
+    "particle": "ganjacraft:blocks/hempbale_block_top-new"
   }
 }

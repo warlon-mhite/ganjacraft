@@ -55,7 +55,6 @@ import net.minecraft.block.Block;
 import net.mcreator.ganjacraft.procedures.SativaUpdateTickProcedure;
 import net.mcreator.ganjacraft.procedures.SativaGrownCropByPlayerProcedure;
 import net.mcreator.ganjacraft.procedures.SativaGrownCropByExplosionProcedure;
-import net.mcreator.ganjacraft.procedures.Break2BlocksUpCropProcedure;
 import net.mcreator.ganjacraft.item.SativaSeedsItem;
 import net.mcreator.ganjacraft.GanjacraftModElements;
 
@@ -147,25 +146,6 @@ public class Sativacrop7Block extends GanjacraftModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1);
-		}
-
-		@Override
-		public void neighborChanged(BlockState state, World world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
-			super.neighborChanged(state, world, pos, neighborBlock, fromPos, moving);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
-			} else {
-			}
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				Break2BlocksUpCropProcedure.executeProcedure($_dependencies);
-			}
 		}
 
 		@Override

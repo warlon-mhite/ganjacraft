@@ -1,5 +1,9 @@
 package net.mcreator.ganjacraft.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.world.BlockEvent;
+import net.minecraftforge.common.MinecraftForge;
+
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
@@ -9,19 +13,25 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.ganjacraft.item.SativaSeedsItem;
-import net.mcreator.ganjacraft.item.IndicaBudItem;
+import net.mcreator.ganjacraft.item.SativaBudItem;
 import net.mcreator.ganjacraft.item.HempStemItem;
+import net.mcreator.ganjacraft.block.Sativacrop7topBlock;
+import net.mcreator.ganjacraft.block.Sativacrop7middleBlock;
+import net.mcreator.ganjacraft.block.Sativacrop7Block;
 import net.mcreator.ganjacraft.GanjacraftModElements;
 import net.mcreator.ganjacraft.GanjacraftMod;
 
 import java.util.Map;
+import java.util.HashMap;
 
 @GanjacraftModElements.ModElement.Tag
 public class SativaGrownCropByPlayerProcedure extends GanjacraftModElements.ModElement {
 	public SativaGrownCropByPlayerProcedure(GanjacraftModElements instance) {
 		super(instance, 193);
+		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -56,9 +66,21 @@ public class SativaGrownCropByPlayerProcedure extends GanjacraftModElements.ModE
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		double dropChance = 0;
+		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Sativacrop7Block.block.getDefaultState().getBlock())) {
+			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), Blocks.AIR.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y + 2), (int) z), Blocks.AIR.getDefaultState(), 3);
+		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Sativacrop7middleBlock.block.getDefaultState()
+				.getBlock())) {
+			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), Blocks.AIR.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), Blocks.AIR.getDefaultState(), 3);
+		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Sativacrop7topBlock.block.getDefaultState()
+				.getBlock())) {
+			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), Blocks.AIR.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y - 2), (int) z), Blocks.AIR.getDefaultState(), 3);
+		}
 		dropChance = (double) Math.random();
 		if (world instanceof World && !world.isRemote()) {
-			ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(IndicaBudItem.block, (int) (1)));
+			ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5), new ItemStack(SativaBudItem.block, (int) (1)));
 			entityToSpawn.setPickupDelay((int) 10);
 			world.addEntity(entityToSpawn);
 		}
@@ -84,7 +106,7 @@ public class SativaGrownCropByPlayerProcedure extends GanjacraftModElements.ModE
 		} else if (((dropChance) >= 0.8)) {
 			if (world instanceof World && !world.isRemote()) {
 				ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-						new ItemStack(IndicaBudItem.block, (int) (1)));
+						new ItemStack(SativaBudItem.block, (int) (1)));
 				entityToSpawn.setPickupDelay((int) 10);
 				world.addEntity(entityToSpawn);
 			}
@@ -115,7 +137,7 @@ public class SativaGrownCropByPlayerProcedure extends GanjacraftModElements.ModE
 					}
 					if (world instanceof World && !world.isRemote()) {
 						ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-								new ItemStack(IndicaBudItem.block, (int) (1)));
+								new ItemStack(SativaBudItem.block, (int) (1)));
 						entityToSpawn.setPickupDelay((int) 10);
 						world.addEntity(entityToSpawn);
 					}
@@ -138,7 +160,7 @@ public class SativaGrownCropByPlayerProcedure extends GanjacraftModElements.ModE
 					}
 					if (world instanceof World && !world.isRemote()) {
 						ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-								new ItemStack(IndicaBudItem.block, (int) (1)));
+								new ItemStack(SativaBudItem.block, (int) (1)));
 						entityToSpawn.setPickupDelay((int) 10);
 						world.addEntity(entityToSpawn);
 					}
@@ -161,7 +183,7 @@ public class SativaGrownCropByPlayerProcedure extends GanjacraftModElements.ModE
 					}
 					if (world instanceof World && !world.isRemote()) {
 						ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-								new ItemStack(IndicaBudItem.block, (int) (1)));
+								new ItemStack(SativaBudItem.block, (int) (1)));
 						entityToSpawn.setPickupDelay((int) 10);
 						world.addEntity(entityToSpawn);
 					}
@@ -212,7 +234,7 @@ public class SativaGrownCropByPlayerProcedure extends GanjacraftModElements.ModE
 					}
 					if (world instanceof World && !world.isRemote()) {
 						ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-								new ItemStack(IndicaBudItem.block, (int) (1)));
+								new ItemStack(SativaBudItem.block, (int) (1)));
 						entityToSpawn.setPickupDelay((int) 10);
 						world.addEntity(entityToSpawn);
 					}
@@ -235,7 +257,7 @@ public class SativaGrownCropByPlayerProcedure extends GanjacraftModElements.ModE
 					}
 					if (world instanceof World && !world.isRemote()) {
 						ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-								new ItemStack(IndicaBudItem.block, (int) (1)));
+								new ItemStack(SativaBudItem.block, (int) (1)));
 						entityToSpawn.setPickupDelay((int) 10);
 						world.addEntity(entityToSpawn);
 					}
@@ -258,7 +280,7 @@ public class SativaGrownCropByPlayerProcedure extends GanjacraftModElements.ModE
 					}
 					if (world instanceof World && !world.isRemote()) {
 						ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-								new ItemStack(IndicaBudItem.block, (int) (1)));
+								new ItemStack(SativaBudItem.block, (int) (1)));
 						entityToSpawn.setPickupDelay((int) 10);
 						world.addEntity(entityToSpawn);
 					}
@@ -384,5 +406,23 @@ public class SativaGrownCropByPlayerProcedure extends GanjacraftModElements.ModE
 				}
 			}
 		}
+	}
+
+	@SubscribeEvent
+	public void onBlockBreak(BlockEvent.BreakEvent event) {
+		Entity entity = event.getPlayer();
+		IWorld world = event.getWorld();
+		Map<String, Object> dependencies = new HashMap<>();
+		dependencies.put("xpAmount", event.getExpToDrop());
+		dependencies.put("x", event.getPos().getX());
+		dependencies.put("y", event.getPos().getY());
+		dependencies.put("z", event.getPos().getZ());
+		dependencies.put("px", entity.getPosX());
+		dependencies.put("py", entity.getPosY());
+		dependencies.put("pz", entity.getPosZ());
+		dependencies.put("world", world);
+		dependencies.put("entity", entity);
+		dependencies.put("event", event);
+		this.executeProcedure(dependencies);
 	}
 }
