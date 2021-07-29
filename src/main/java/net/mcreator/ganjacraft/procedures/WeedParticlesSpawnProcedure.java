@@ -45,7 +45,7 @@ public class WeedParticlesSpawnProcedure extends GanjacraftModElements.ModElemen
 		IWorld world = (IWorld) dependencies.get("world");
 		return (((Entity) world
 				.getEntitiesWithinAABB(PlayerEntity.class,
-						new AxisAlignedBB(x - (16 / 2d), y - (16 / 2d), z - (16 / 2d), x + (16 / 2d), y + (16 / 2d), z + (16 / 2d)), null)
+						new AxisAlignedBB(x - (12 / 2d), y - (12 / 2d), z - (12 / 2d), x + (12 / 2d), y + (12 / 2d), z + (12 / 2d)), null)
 				.stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));

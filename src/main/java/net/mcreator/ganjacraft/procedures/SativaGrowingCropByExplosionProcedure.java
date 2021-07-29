@@ -57,20 +57,32 @@ public class SativaGrowingCropByExplosionProcedure extends GanjacraftModElements
 		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Sativacrop6Block.block.getDefaultState().getBlock())) {
 			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), Blocks.AIR.getDefaultState(), 3);
 			world.setBlockState(new BlockPos((int) x, (int) (y + 2), (int) z), Blocks.AIR.getDefaultState(), 3);
+			if (world instanceof World && !world.isRemote()) {
+				ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
+						new ItemStack(SativaSeedsItem.block, (int) (1)));
+				entityToSpawn.setPickupDelay((int) 10);
+				world.addEntity(entityToSpawn);
+			}
 		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Sativacrop6middleBlock.block.getDefaultState()
 				.getBlock())) {
 			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), Blocks.AIR.getDefaultState(), 3);
 			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), Blocks.AIR.getDefaultState(), 3);
+			if (world instanceof World && !world.isRemote()) {
+				ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
+						new ItemStack(SativaSeedsItem.block, (int) (1)));
+				entityToSpawn.setPickupDelay((int) 10);
+				world.addEntity(entityToSpawn);
+			}
 		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Sativacrop6topBlock.block.getDefaultState()
 				.getBlock())) {
 			world.setBlockState(new BlockPos((int) x, (int) (y - 1), (int) z), Blocks.AIR.getDefaultState(), 3);
 			world.setBlockState(new BlockPos((int) x, (int) (y - 2), (int) z), Blocks.AIR.getDefaultState(), 3);
-		}
-		if (world instanceof World && !world.isRemote()) {
-			ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
-					new ItemStack(SativaSeedsItem.block, (int) (1)));
-			entityToSpawn.setPickupDelay((int) 10);
-			world.addEntity(entityToSpawn);
+			if (world instanceof World && !world.isRemote()) {
+				ItemEntity entityToSpawn = new ItemEntity((World) world, (x + 0.5), (y + 0.5), (z + 0.5),
+						new ItemStack(SativaSeedsItem.block, (int) (1)));
+				entityToSpawn.setPickupDelay((int) 10);
+				world.addEntity(entityToSpawn);
+			}
 		}
 	}
 
