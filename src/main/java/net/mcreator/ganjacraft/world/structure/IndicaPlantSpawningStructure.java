@@ -40,7 +40,7 @@ public class IndicaPlantSpawningStructure extends GanjacraftModElements.ModEleme
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public IndicaPlantSpawningStructure(GanjacraftModElements instance) {
-		super(instance, 119);
+		super(instance, 135);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -58,7 +58,7 @@ public class IndicaPlantSpawningStructure extends GanjacraftModElements.ModEleme
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 5000) {
+					if ((random.nextInt(1000000) + 1) <= 1500) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);

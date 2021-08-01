@@ -16,7 +16,7 @@ public class EmptyBongItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:emptybong")
 	public static final Item block = null;
 	public EmptyBongItem(GanjacraftModElements instance) {
-		super(instance, 12);
+		super(instance, 17);
 	}
 
 	@Override

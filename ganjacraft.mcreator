@@ -1725,6 +1725,956 @@
         ]
       },
       "path": "~/procedure"
+    },
+    {
+      "name": "CookedSeedsRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_seeds_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaSpliffRecipe",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_spliff_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "WeedPipe",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weed_pipe",
+      "path": "~/items"
+    },
+    {
+      "name": "HempPlanksWoddyStuffStairs",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_stairs",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempPlanksWoddyStuffFenceGate",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_fence_gate",
+      "path": "~/blocks"
+    },
+    {
+      "name": "SativaGrownCropByPlayer",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_grown_crop_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "WoodenPipeRecipeMiror",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_pipe_recipe_miror",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffSlabRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_slab_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaPipe",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_pipe",
+      "path": "~/items"
+    },
+    {
+      "name": "Sativacrop4top",
+      "type": "block",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_4top",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "SativaUpdateTick",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaAdvancement",
+      "type": "achievement",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_advancement",
+      "path": "~/advancement"
+    },
+    {
+      "name": "HempFirestarterRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_firestarter_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "IndicaPipe",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "indica_pipe",
+      "path": "~/items"
+    },
+    {
+      "name": "HempFirestarterFuel",
+      "type": "fuel",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_firestarter_fuel",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffStickRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_stick_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaSpliffEffect",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_spliff_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Sativacrop3",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_3",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop2",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_2",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop5",
+      "type": "block",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_5",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "SativaBong",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_bong",
+      "path": "~/items"
+    },
+    {
+      "name": "Sativacrop4",
+      "type": "block",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_4",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "HempPlanksWoddyStuffItemsTag",
+      "type": "tag",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_items_tag"
+    },
+    {
+      "name": "IndicaAdcancement",
+      "type": "achievement",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "indica_adcancement",
+      "path": "~/advancement"
+    },
+    {
+      "name": "Sativacrop5top",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_5top",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop1",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_1",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "HempcretePowderRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hempcrete_powder_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "CookieAltRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cookie_alt_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "CookedSeedsRecipeCampFire",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_seeds_recipe_camp_fire",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempDoorRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_door_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_trapdoor_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempDoor",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_door",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Sativacrop7",
+      "type": "block",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_7",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "SativaBongRecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_bong_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffFenceRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_fence_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Sativacrop6",
+      "type": "block",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_6",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "HempFirestrater",
+      "type": "item",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_firestrater",
+      "path": "~/items"
+    },
+    {
+      "name": "WoodenPipeRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_pipe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "IndicaPipeRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "indica_pipe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaSeeds",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_seeds",
+      "path": "~/items"
+    },
+    {
+      "name": "Sativacrop",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "SativaGrownCropByExplosion",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_grown_crop_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "HempPlanksWoddyStuffFence",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_fence",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempPlanksWoddyStuffStairsRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_stairs_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "BreadAltRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bread_alt_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempFlourRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_flour_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "FlipFlopRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flip_flop_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempTrapdoor",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_trapdoor",
+      "path": "~/blocks"
+    },
+    {
+      "name": "SativaBongHit",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_bong_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Sativacrop6top",
+      "type": "block",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_6top",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "SativaGrowingCropByExplosion",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_growing_crop_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaSpliff",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_spliff",
+      "path": "~/items"
+    },
+    {
+      "name": "HempPlanksWoddyStuffFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_fence_gate_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Sativacrop7middle",
+      "type": "block",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_7middle",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "CannabutterRecipe",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cannabutter_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffPlanks",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_planks",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Sativacrop6middle",
+      "type": "block",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_6middle",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "IndicaPipeEffects",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "indica_pipe_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "WoodenPipehemplanksRecipeMiror",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_pipehemplanks_recipe_miror",
+      "path": "~/recipe"
+    },
+    {
+      "name": "WoodenPipeHempplanksRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_pipe_hempplanks_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffPlanksRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_planks_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SeedsAdvancement",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seeds_advancement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaSeedsRightClick",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_seeds_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "CookedSeeds",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_seeds",
+      "path": "~/items"
+    },
+    {
+      "name": "CookedSeedsRecipe2",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_seeds_recipe_2",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaBud",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_bud",
+      "path": "~/items"
+    },
+    {
+      "name": "HempFlour",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_flour",
+      "path": "~/items"
+    },
+    {
+      "name": "SativaPipeRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_pipe_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "Sativacrop7top",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativacrop_7top",
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "CookedSeedsRecipeFireCamp",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_seeds_recipe_fire_camp",
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffSlab",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_planks_woddy_stuff_slab",
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempFlourSativa",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hemp_flour_sativa",
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaPipeEffects",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_pipe_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaPlantSpawning",
+      "type": "structure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sativa_plant_spawning"
     }
   ],
   "variable_elements": [],
@@ -1767,15 +2717,24 @@
       "item.ganjacraft.weedmantest_spawn_egg": "Weedman Spawn Egg",
       "subtitles.ganjadisc": "Playing ganjadisc music",
       "block.ganjacraft.weedcrop5top": "Weedcrop stage 5 top",
+      "block.ganjacraft.sativacrop_5": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_6": "Sativa stage 4",
       "advancements.ediblesadvancement.title": "Is it a good idea to eat that ?",
       "advancements.ediblesadvancement.descr": "You have mad cannabutter, be carefull with edibles they always finish by kicking hard.",
+      "block.ganjacraft.sativacrop_7": "Sativa stage 4",
       "block.ganjacraft.weedcrop5": "Weedcrop stage 5 bottom",
+      "block.ganjacraft.sativacrop_1": "Sativa stage 1",
       "item.ganjacraft.indicabud": "Indica Bud",
       "item.ganjacraft.ganjadisc.desc": "Good reggae vibe man",
       "block.ganjacraft.weedcrop6": "Weedcrop stage 6 bottom",
       "subtitles.coughing": "coughing",
+      "block.ganjacraft.sativacrop_2": "Sativa stage 2",
       "entity.ganjacraft.weedmantest": "Weedman",
       "block.ganjacraft.weedcrop7": "Weedcrop stage 7 bottom",
+      "block.ganjacraft.sativacrop_3": "Sativa stage 3",
+      "block.ganjacraft.sativacrop_4": "Sativa stage 4",
+      "item.ganjacraft.sativa_bong": "Sativa bong",
+      "item.ganjacraft.sativa_pipe": "Sativa pipe",
       "block.ganjacraft.weedcrop": "Weed Plant stage 0",
       "item.ganjacraft.hempoutfit_chestplate": "Hemp Outfit Body",
       "item.ganjacraft.hempoutfitboots": "Hemp Outfit Boots",
@@ -1784,6 +2743,8 @@
       "item.ganjacraft.hempstem": "Hemp stem",
       "itemGroup.tabganjacraftcreativetab": "Ganja Craft",
       "item.ganjacraft.hempoutfit_leggings": "Hemp Harem Pants",
+      "block.ganjacraft.sativacrop_4top": "Sativa stage 4",
+      "block.ganjacraft.sativacrop": "Sativa stage 0",
       "advancements.hemptextilachivements.title": "Hemp Crafter",
       "block.ganjacraft.weedcrop6top": "Weedcrop stage 6 top",
       "advancements.weedgroweradvancement.descr": "You can do a lot of thing with the cannabis plant, so before rolling your spliff try to craft other stuff",
@@ -1800,6 +2761,7 @@
       "subtitles.smoking": "smoking spliff",
       "block.ganjacraft.weedcrop7top": "Weedcrop stage 7 top",
       "item.ganjacraft.hempoutfitbody": "Hemp Outfit Body",
+      "block.ganjacraft.sativacrop_5top": "Sativa stage 4",
       "block.ganjacraft.hempcrete_powder": "Hempcrete Powder",
       "item.ganjacraft.hempoutfitlegs": "Hemp Sarouel",
       "block.ganjacraft.hempcrete_block": "Hempcrete Block",
@@ -1807,6 +2769,7 @@
       "block.ganjacraft.hempbale": "Hemp Bale",
       "item.ganjacraft.cannabutteritem": "Cannabutter",
       "block.ganjacraft.hempbricks": "Hemp Bricks",
+      "item.ganjacraft.indica_pipe": "Indica pipe",
       "item.ganjacraft.hempfiberitem": "Hemp fiber",
       "item.ganjacraft.goldencannarot": "Golden Cannarot",
       "item.ganjacraft.weedmantest": "Weedman Spawn Egg",
@@ -1817,6 +2780,7 @@
       "advancements.weedgroweradvancement.title": "Weed Grower",
       "advancements.hempbrickadvancement.title": "Hemp Builder",
       "item.ganjacraft.hempsmoothie": "Hemp Smoothie",
+      "block.ganjacraft.sativacrop_6top": "Sativa stage 4",
       "item.ganjacraft.ganjadisc": "Ganja Disc",
       "block.ganjacraft.weedcrop4top": "Weedcrop stage 4 top",
       "block.ganjacraft.hempbrickswall": "Hemp Bricks Wall",
@@ -1825,70 +2789,106 @@
       "item.ganjacraft.weedseeds": "Cannabis Seeds",
       "item.ganjacraft.emptybong": "Empty Bong",
       "block.ganjacraft.hempbricksslab": "Hemp Bricks Slab",
+      "item.ganjacraft.sativa_seeds": "Sativa cannabis seeds",
       "item.ganjacraft.indicabong": "Indica Bong"
     },
     "fr_fr": {
       "subtitles.ganjadisc": "Musique du ganjadisc",
       "item.ganjacraft.weedmantest_spawn_egg": "Weedman Spawn Egg",
-      "block.ganjacraft.weedcrop5top": "Weedcrop stage 5 top",
       "advancements.ediblesadvancement.title": "Est-ce une bonne idée de manger ça ?",
-      "advancements.ediblesadvancement.descr": "Vous avez fait du beurre de Marrakech, attention avec ça, la space bouffe finit toujours par taper fort.",
-      "block.ganjacraft.weedcrop5": "Weedcrop stage 5 bottom",
-      "subtitles.coughing": "tousse",
-      "block.ganjacraft.weedcrop6": "Weedcrop stage 6 bottom",
+      "item.ganjacraft.sativa_bud": "Fleur de sativa",
       "item.ganjacraft.ganjadisc.desc": "Du bon son root",
-      "item.ganjacraft.indicabud": "Fleur d\u0027indica",
-      "block.ganjacraft.weedcrop7": "Weedcrop stage 7 bottom",
+      "subtitles.coughing": "tousse",
       "entity.ganjacraft.weedmantest": "Weedman",
-      "block.ganjacraft.weedcrop": "Weed Plant stage 0",
+      "item.ganjacraft.sativa_bong": "Bong de sativa",
+      "item.ganjacraft.sativa_pipe": "Pipe de sativa",
       "item.ganjacraft.hempoutfit_chestplate": "Chemise en chanvre",
       "item.ganjacraft.hempoutfitboots": "Chaussure en chanvre",
       "item.ganjacraft.hempoutfit_helmet": "Bonnet en chanvre",
-      "item.ganjacraft.hempstem": "Tige de chanvre",
-      "item.ganjacraft.hempbrick": "Brique de chanvre",
-      "itemGroup.tabganjacraftcreativetab": "GanjaCraft",
       "item.ganjacraft.hempoutfit_leggings": "Sarouel en chanvre",
       "advancements.hemptextilachivements.title": "Artisan du chanvre",
       "block.ganjacraft.weedcrop6top": "Weedcrop stage 6 top",
+      "advancements.sativa_advancement.descr": "C\u0027est le moment de profiter et de fumer !",
+      "block.ganjacraft.sativacrop_6middle": "Sativa stage 4",
       "advancements.weedgroweradvancement.descr": "Vous pouvez faire beaucoup de choses avec la plante de cannabis, alors avant de rouler votre spliff, essayez de fabriquer d\u0027autres trucs",
-      "advancements.hempbrickadvancement.descr": "Saviez-vous que le chanvre peut faire de très bonnes briques isolantes et ininflammables ?",
-      "block.ganjacraft.weedcrop1": "Weedcrop stage 1",
-      "block.ganjacraft.weedcrop2": "Weedcrop stage 2",
-      "block.ganjacraft.weedcrop3": "Weed crop stage 3",
+      "item.ganjacraft.cooked_seeds": "Graines de cannabis cuites",
       "item.ganjacraft.indicaspliff": "Spliff d\u0027indica",
-      "block.ganjacraft.hempbricksstairs": "Escalier en brique de chanvre",
-      "block.ganjacraft.weedcrop4": "Weedcrop stage 4",
-      "advancements.cannabisseedsadvancement.descr": "Essayez de planter vos graines et récoltez votre première plante de cannabis !",
       "item.ganjacraft.goldencannapple": "Cannapomme dorée",
-      "item.ganjacraft.hempoutfit_boots": "Chaussure en chanvre",
-      "subtitles.smoking": "Fume le spliff",
-      "block.ganjacraft.weedcrop7top": "Weedcrop stage 7 top",
       "item.ganjacraft.hempoutfitbody": "Chemise en chanvre",
-      "block.ganjacraft.hempcrete_powder": "Hempcrete Powder",
-      "item.ganjacraft.hempoutfitlegs": "Sarouel en chanvre",
       "block.ganjacraft.hempcrete_block": "Hempcrete Block",
       "item.ganjacraft.hempoutfithelmet": "Bonnet en chanvre",
-      "block.ganjacraft.hempbale": "Botte de chanvre",
-      "item.ganjacraft.cannabutteritem": "Beurre de Marrakech",
+      "item.ganjacraft.hemp_firestrater": "Allume feu",
       "block.ganjacraft.hempbricks": "Briques de chanvre",
-      "item.ganjacraft.hempfiberitem": "Fibre de chanvre",
-      "item.ganjacraft.goldencannarot": "Cannarot dorée",
-      "item.ganjacraft.weedmantest": "Weedman Spawn Egg",
+      "item.ganjacraft.indica_pipe": "Pipe d\u0027indica",
       "subtitles.randomcoughing": "Tousse",
-      "item.ganjacraft.magiccookie": "Cookie Magique",
       "subtitles.bonghit": "Douille de bong",
+      "item.ganjacraft.magiccookie": "Cookie Magique",
       "item.ganjacraft.hempcrete": "Hempcrete",
       "advancements.weedgroweradvancement.title": "Cultivateur",
       "advancements.hempbrickadvancement.title": "Maçon du chanvre",
       "item.ganjacraft.hempsmoothie": "Jus de chanvre",
+      "block.ganjacraft.sativacrop_6top": "Sativa stage 4",
+      "advancements.hemptextilachivements.descr": "Saviez-vous que vous pouvez faire des textiles et du papier de haute qualité en utilisant du chanvre ? Et il consomme moins d\u0027eau que le coton :)",
+      "item.ganjacraft.weedseeds": "Graines de cannabis",
+      "item.ganjacraft.emptybong": "Bong vide",
+      "advancements.sativa_advancement.title": "Succès sativa",
+      "block.ganjacraft.hempbricksslab": "Dalle en briques de chanvre",
+      "item.ganjacraft.sativa_seeds": "Graines de cannabis sativa",
+      "block.ganjacraft.hemp_trapdoor": "Trappe en chanvre",
+      "block.ganjacraft.weedcrop5top": "Weedcrop stage 5 top",
+      "block.ganjacraft.sativacrop_5": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_6": "Sativa stage 4",
+      "advancements.ediblesadvancement.descr": "Vous avez fait du beurre de Marrakech, attention avec ça, la space bouffe finit toujours par taper fort.",
+      "block.ganjacraft.sativacrop_7": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_7top": "Sativa stage 4",
+      "block.ganjacraft.weedcrop5": "Weedcrop stage 5 bottom",
+      "block.ganjacraft.sativacrop_1": "Sativa stage 1",
+      "block.ganjacraft.weedcrop6": "Weedcrop stage 6 bottom",
+      "item.ganjacraft.indicabud": "Fleur d\u0027indica",
+      "block.ganjacraft.sativacrop_2": "Sativa stage 2",
+      "block.ganjacraft.weedcrop7": "Weedcrop stage 7 bottom",
+      "block.ganjacraft.sativacrop_3": "Sativa stage 3",
+      "block.ganjacraft.sativacrop_4": "Sativa stage 4",
+      "block.ganjacraft.weedcrop": "Weed Plant stage 0",
+      "block.ganjacraft.hemp_planks_woddy_stuff_planks": "Planches de chanvre",
+      "item.ganjacraft.hempstem": "Tige de chanvre",
+      "item.ganjacraft.hempbrick": "Brique de chanvre",
+      "itemGroup.tabganjacraftcreativetab": "GanjaCraft",
+      "block.ganjacraft.sativacrop_4top": "Sativa stage 4",
+      "block.ganjacraft.sativacrop": "Sativa stage 0",
+      "advancements.hempbrickadvancement.descr": "Saviez-vous que le chanvre peut faire de très bonnes briques isolantes et ininflammables ?",
+      "block.ganjacraft.weedcrop1": "Weedcrop stage 1",
+      "block.ganjacraft.hemp_planks_woddy_stuff_slab": "Dalle de planche de chanvre",
+      "block.ganjacraft.weedcrop2": "Weedcrop stage 2",
+      "block.ganjacraft.weedcrop3": "Weed crop stage 3",
+      "block.ganjacraft.hempbricksstairs": "Escalier en brique de chanvre",
+      "block.ganjacraft.weedcrop4": "Weedcrop stage 4",
+      "advancements.cannabisseedsadvancement.descr": "Essayez de planter vos graines et récoltez votre première plante de cannabis !",
+      "block.ganjacraft.hemp_planks_woddy_stuff_fence": "Barrière de chanvre",
+      "item.ganjacraft.hempoutfit_boots": "Chaussure en chanvre",
+      "subtitles.smoking": "Fume le spliff",
+      "block.ganjacraft.weedcrop7top": "Weedcrop stage 7 top",
+      "block.ganjacraft.sativacrop_5top": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_7middle": "Sativa stage 4",
+      "block.ganjacraft.hempcrete_powder": "Hempcrete Powder",
+      "item.ganjacraft.hempoutfitlegs": "Sarouel en chanvre",
+      "advancements.indica_adcancement.title": "Indica Adcancement",
+      "block.ganjacraft.hempbale": "Botte de chanvre",
+      "item.ganjacraft.hemp_flour": "Farine de chanvre",
+      "item.ganjacraft.cannabutteritem": "Beurre de Marrakech",
+      "item.ganjacraft.hempfiberitem": "Fibre de chanvre",
+      "item.ganjacraft.goldencannarot": "Cannarot dorée",
+      "item.ganjacraft.weedmantest": "Weedman Spawn Egg",
+      "block.ganjacraft.hemp_planks_woddy_stuff_stairs": "Escalier en planches de chanvre",
+      "advancements.indica_adcancement.descr": "C\u0027est le moment de se détendre et de fumer !",
+      "block.ganjacraft.hemp_door": "Porte de chanvre",
+      "item.ganjacraft.weed_pipe": "Pipe en bois",
       "item.ganjacraft.ganjadisc": "Ganja Disc",
       "block.ganjacraft.weedcrop4top": "Weedcrop stage 4 top",
       "block.ganjacraft.hempbrickswall": "Mur en briques de chanvre",
-      "advancements.hemptextilachivements.descr": "Saviez-vous que vous pouvez faire des textiles et du papier de haute qualité en utilisant du chanvre ? Et il consomme moins d\u0027eau que le coton :)",
       "advancements.cannabisseedsadvancement.title": "Un nouveau monde avec GanjaCraft",
-      "item.ganjacraft.weedseeds": "Graines de cannabis",
-      "item.ganjacraft.emptybong": "Bong vide",
-      "block.ganjacraft.hempbricksslab": "Dalle en briques de chanvre",
+      "item.ganjacraft.sativa_spliff": "Spliff de sativa",
+      "block.ganjacraft.hemp_planks_woddy_stuff_fence_gate": "Portillon de chanvre",
       "item.ganjacraft.indicabong": "Indica Bong"
     }
   },
@@ -1896,19 +2896,7 @@
     "name": "~",
     "children": [
       {
-        "name": "items",
-        "children": []
-      },
-      {
-        "name": "blocks",
-        "children": []
-      },
-      {
         "name": "recipe",
-        "children": []
-      },
-      {
-        "name": "weed-crop",
         "children": []
       },
       {
@@ -1921,6 +2909,18 @@
       },
       {
         "name": "Paintings",
+        "children": []
+      },
+      {
+        "name": "weed-crop",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "blocks",
         "children": []
       }
     ]

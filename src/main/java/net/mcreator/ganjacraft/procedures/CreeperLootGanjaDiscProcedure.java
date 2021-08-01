@@ -22,7 +22,7 @@ import java.util.HashMap;
 @GanjacraftModElements.ModElement.Tag
 public class CreeperLootGanjaDiscProcedure extends GanjacraftModElements.ModElement {
 	public CreeperLootGanjaDiscProcedure(GanjacraftModElements instance) {
-		super(instance, 114);
+		super(instance, 130);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

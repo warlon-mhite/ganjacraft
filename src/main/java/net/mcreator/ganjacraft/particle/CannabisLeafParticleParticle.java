@@ -24,7 +24,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 public class CannabisLeafParticleParticle extends GanjacraftModElements.ModElement {
 	public static final BasicParticleType particle = new BasicParticleType(false);
 	public CannabisLeafParticleParticle(GanjacraftModElements instance) {
-		super(instance, 112);
+		super(instance, 128);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

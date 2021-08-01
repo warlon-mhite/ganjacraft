@@ -19,7 +19,7 @@ import java.util.HashMap;
 @GanjacraftModElements.ModElement.Tag
 public class GoldenCannarotEffectsProcedure extends GanjacraftModElements.ModElement {
 	public GoldenCannarotEffectsProcedure(GanjacraftModElements instance) {
-		super(instance, 84);
+		super(instance, 102);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

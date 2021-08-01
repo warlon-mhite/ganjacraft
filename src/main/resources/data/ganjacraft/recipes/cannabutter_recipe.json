@@ -1,0 +1,12 @@
+{
+  "group": "cannabutter",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 420,
+  "ingredient": {
+    "item": "ganjacraft:deleted_mod_element"
+  },
+  "result": {
+    "item": "ganjacraft:cannabutteritem"
+  }
+}

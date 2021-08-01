@@ -24,7 +24,7 @@ import java.util.HashMap;
 @GanjacraftModElements.ModElement.Tag
 public class CannabutterCraftedAdvancementProcedure extends GanjacraftModElements.ModElement {
 	public CannabutterCraftedAdvancementProcedure(GanjacraftModElements instance) {
-		super(instance, 70);
+		super(instance, 88);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

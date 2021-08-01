@@ -12,7 +12,7 @@ import java.util.Map;
 @GanjacraftModElements.ModElement.Tag
 public class WeedOnFireBreakUpperBlockProcedure extends GanjacraftModElements.ModElement {
 	public WeedOnFireBreakUpperBlockProcedure(GanjacraftModElements instance) {
-		super(instance, 94);
+		super(instance, 110);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

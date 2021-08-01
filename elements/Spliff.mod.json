@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "spliff",
     "customModelName": "Normal",
-    "name": "Indica Spliff",
+    "name": "Indica spliff",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:GanjaCraftCreativeTab"
@@ -15,6 +15,9 @@
     "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
     "destroyAnyBlock": false,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
@@ -23,6 +26,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {

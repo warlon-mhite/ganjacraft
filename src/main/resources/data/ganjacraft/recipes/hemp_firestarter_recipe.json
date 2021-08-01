@@ -1,0 +1,42 @@
+{
+  "group": "firestarter",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:honeycomb"
+    },
+    "1": {
+      "item": "ganjacraft:hempfiberitem"
+    },
+    "2": {
+      "item": "minecraft:honeycomb"
+    },
+    "3": {
+      "item": "ganjacraft:hempfiberitem"
+    },
+    "4": {
+      "tag": "minecraft:coals"
+    },
+    "5": {
+      "item": "ganjacraft:hempfiberitem"
+    },
+    "6": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "7": {
+      "item": "ganjacraft:hempcrete"
+    },
+    "8": {
+      "item": "ganjacraft:hempcrete"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:deleted_mod_element",
+    "count": 1
+  }
+}

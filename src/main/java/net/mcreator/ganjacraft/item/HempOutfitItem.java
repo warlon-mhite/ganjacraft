@@ -29,7 +29,7 @@ public class HempOutfitItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:hempoutfit_boots")
 	public static final Item boots = null;
 	public HempOutfitItem(GanjacraftModElements instance) {
-		super(instance, 19);
+		super(instance, 28);
 	}
 
 	@Override
@@ -97,5 +97,12 @@ public class HempOutfitItem extends GanjacraftModElements.ModElement {
 						return "ganjacraft:textures/models/armor/hemp__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 					}
 				}.setRegistryName("hempoutfit_leggings"));
+		elements.items
+				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(GanjaCraftCreativeTabItemGroup.tab)) {
+					@Override
+					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+						return "ganjacraft:textures/models/armor/hemp__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+					}
+				}.setRegistryName("hempoutfit_boots"));
 	}
 }

@@ -13,13 +13,13 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class HempBaleFuelFuel extends GanjacraftModElements.ModElement {
 	public HempBaleFuelFuel(GanjacraftModElements instance) {
-		super(instance, 46);
+		super(instance, 65);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	@SubscribeEvent
 	public void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {
 		if (event.getItemStack().getItem() == new ItemStack(HempBaleBlock.block, (int) (1)).getItem())
-			event.setBurnTime(420);
+			event.setBurnTime(550);
 	}
 }

@@ -1,0 +1,26 @@
+{
+  "group": "joint",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:deleted_mod_element"
+    },
+    "1": {
+      "item": "ganjacraft:deleted_mod_element"
+    },
+    "2": {
+      "item": "minecraft:paper"
+    },
+    "3": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:deleted_mod_element",
+    "count": 1
+  }
+}

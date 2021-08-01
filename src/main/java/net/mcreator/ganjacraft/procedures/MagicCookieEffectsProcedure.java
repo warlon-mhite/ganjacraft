@@ -19,7 +19,7 @@ import java.util.HashMap;
 @GanjacraftModElements.ModElement.Tag
 public class MagicCookieEffectsProcedure extends GanjacraftModElements.ModElement {
 	public MagicCookieEffectsProcedure(GanjacraftModElements instance) {
-		super(instance, 67);
+		super(instance, 85);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

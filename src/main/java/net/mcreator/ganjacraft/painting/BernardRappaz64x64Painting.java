@@ -12,7 +12,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class BernardRappaz64x64Painting extends GanjacraftModElements.ModElement {
 	public BernardRappaz64x64Painting(GanjacraftModElements instance) {
-		super(instance, 95);
+		super(instance, 111);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

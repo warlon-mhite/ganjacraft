@@ -28,7 +28,7 @@ public class SpliffItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:indicaspliff")
 	public static final Item block = null;
 	public SpliffItem(GanjacraftModElements instance) {
-		super(instance, 11);
+		super(instance, 14);
 	}
 
 	@Override

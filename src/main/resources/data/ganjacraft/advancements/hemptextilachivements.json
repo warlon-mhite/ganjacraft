@@ -27,7 +27,8 @@
       "ganjacraft:stringrecipe",
       "ganjacraft:hemphatrecipe",
       "ganjacraft:hempoutfitbodyrecipe",
-      "ganjacraft:hempsarouelrecipe"
+      "ganjacraft:hempsarouelrecipe",
+      "ganjacraft:flip_flop_recipe"
     ]
   },
   "parent": "ganjacraft:weedgroweradvancement"

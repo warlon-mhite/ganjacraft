@@ -17,21 +17,19 @@
   },
   "criteria": {
     "cannabisseedsadvancement": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "ganjacraft:weedseeds",
-            "count": {
-              "min": 1,
-              "max": 64
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 1,
+    "recipes": [
+      "ganjacraft:hemp_flour_recipe",
+      "ganjacraft:bread_alt_recipe",
+      "ganjacraft:cookie_alt_recipe",
+      "ganjacraft:cooked_seeds_recipe",
+      "ganjacraft:cooked_seeds_recipe_fire_camp",
+      "ganjacraft:cooked_seeds_recipe_camp_fire",
+      "ganjacraft:cooked_seeds_recipe_2"
+    ]
   }
 }

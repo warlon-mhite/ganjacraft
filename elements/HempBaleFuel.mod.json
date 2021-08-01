@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "fuel",
   "definition": {
-    "power": 420,
+    "power": 550,
     "block": {
       "value": "CUSTOM:HempBale"
     }

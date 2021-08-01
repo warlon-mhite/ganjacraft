@@ -1,0 +1,33 @@
+{
+  "group": "hempplanksstairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:deleted_mod_element"
+    },
+    "3": {
+      "item": "ganjacraft:deleted_mod_element"
+    },
+    "4": {
+      "item": "ganjacraft:deleted_mod_element"
+    },
+    "6": {
+      "item": "ganjacraft:deleted_mod_element"
+    },
+    "7": {
+      "item": "ganjacraft:deleted_mod_element"
+    },
+    "8": {
+      "item": "ganjacraft:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:hemp_planks_woddy_stuff_stairs",
+    "count": 4
+  }
+}
