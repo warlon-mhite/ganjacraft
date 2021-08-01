@@ -27,7 +27,7 @@
         "my": 0.016,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 10.0,
+        "My": 14.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -104,19 +104,12 @@
     "onTickUpdate": {
       "name": "UpdateTick"
     },
-    "onDestroyedByPlayer": {
-      "name": "GrowingCropBlowingByExplosion"
-    },
     "onDestroyedByExplosion": {
       "name": "GrowingCropBlowingByExplosion"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

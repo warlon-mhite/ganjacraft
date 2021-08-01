@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "ganjacraft:blocks/hemp_planks",
+    "particle": "ganjacraft:blocks/hemp_planks"
+  }
+}

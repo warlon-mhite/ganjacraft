@@ -27,7 +27,7 @@
         "my": 0.016,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 2.0,
+        "My": 5.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -111,7 +111,7 @@
       "name": "BreakUnderBlockCrop"
     },
     "onDestroyedByExplosion": {
-      "name": "GrownCropByExplosion"
+      "name": "GrowingCropBlowingByExplosion"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

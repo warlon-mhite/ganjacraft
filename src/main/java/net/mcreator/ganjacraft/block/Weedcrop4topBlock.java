@@ -58,7 +58,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.ganjacraft.procedures.WeedOnFireBreakUpperBlockProcedure;
 import net.mcreator.ganjacraft.procedures.UpdateTickProcedure;
-import net.mcreator.ganjacraft.procedures.GrownCropByExplosionProcedure;
+import net.mcreator.ganjacraft.procedures.GrowingCropBlowingByExplosionProcedure;
 import net.mcreator.ganjacraft.procedures.BreakUnderBlockCropProcedure;
 import net.mcreator.ganjacraft.item.WeedseedsItem;
 import net.mcreator.ganjacraft.GanjacraftModElements;
@@ -79,7 +79,7 @@ public class Weedcrop4topBlock extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:weedcrop4top")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public Weedcrop4topBlock(GanjacraftModElements instance) {
-		super(instance, 72);
+		super(instance, 90);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -114,7 +114,7 @@ public class Weedcrop4topBlock extends GanjacraftModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(0, 0.016, 0, 16, 2, 16)).withOffset(offset.x, offset.y, offset.z);
+			return VoxelShapes.or(makeCuboidShape(0, 0.016, 0, 16, 5, 16)).withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override
@@ -224,7 +224,7 @@ public class Weedcrop4topBlock extends GanjacraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				GrownCropByExplosionProcedure.executeProcedure($_dependencies);
+				GrowingCropBlowingByExplosionProcedure.executeProcedure($_dependencies);
 			}
 		}
 

@@ -16,7 +16,7 @@ public class HempcreteItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:hempcrete")
 	public static final Item block = null;
 	public HempcreteItem(GanjacraftModElements instance) {
-		super(instance, 120);
+		super(instance, 30);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class IndicaBongItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:indicabong")
 	public static final Item block = null;
 	public IndicaBongItem(GanjacraftModElements instance) {
-		super(instance, 13);
+		super(instance, 18);
 	}
 
 	@Override

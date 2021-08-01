@@ -15,7 +15,7 @@ import java.util.Map;
 @GanjacraftModElements.ModElement.Tag
 public class BreakUpperBlockCropProcedure extends GanjacraftModElements.ModElement {
 	public BreakUpperBlockCropProcedure(GanjacraftModElements instance) {
-		super(instance, 90);
+		super(instance, 107);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

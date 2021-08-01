@@ -77,7 +77,7 @@ public class Weedcrop5topBlock extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:weedcrop5top")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public Weedcrop5topBlock(GanjacraftModElements instance) {
-		super(instance, 73);
+		super(instance, 91);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -112,7 +112,7 @@ public class Weedcrop5topBlock extends GanjacraftModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(0, 0.016, 0, 16, 5.12, 16)).withOffset(offset.x, offset.y, offset.z);
+			return VoxelShapes.or(makeCuboidShape(0, 0.016, 0, 16, 8, 16)).withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override

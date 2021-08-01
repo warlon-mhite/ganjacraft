@@ -40,7 +40,15 @@
       "ganjacraft:brown_concrete_recipe",
       "ganjacraft:green_concrete_recipe",
       "ganjacraft:red_concrete_recipe",
-      "ganjacraft:black_concrete_recipe"
+      "ganjacraft:black_concrete_recipe",
+      "ganjacraft:hempcrete_powder_recipe",
+      "ganjacraft:hemp_planks_woddy_stuff_planks_recipe",
+      "ganjacraft:hemp_planks_woddy_stuff_stairs_recipe",
+      "ganjacraft:hemp_planks_woddy_stuff_slab_recipe",
+      "ganjacraft:hemp_planks_woddy_stuff_fence_recipe",
+      "ganjacraft:hemp_planks_woddy_stuff_fence_gate_recipe",
+      "ganjacraft:hemp_door_recipe",
+      "ganjacraft:hemp_trapdoor_recipe"
     ]
   },
   "parent": "ganjacraft:weedgroweradvancement"

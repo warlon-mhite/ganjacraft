@@ -22,7 +22,7 @@ public class HempBrickItem extends GanjacraftModElements.ModElement {
 	@ObjectHolder("ganjacraft:hempbrick")
 	public static final Item block = null;
 	public HempBrickItem(GanjacraftModElements instance) {
-		super(instance, 6);
+		super(instance, 8);
 	}
 
 	@Override

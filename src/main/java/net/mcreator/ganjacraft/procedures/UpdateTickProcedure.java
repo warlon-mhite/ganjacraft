@@ -20,6 +20,7 @@ import net.mcreator.ganjacraft.block.Weedcrop4Block;
 import net.mcreator.ganjacraft.block.Weedcrop3Block;
 import net.mcreator.ganjacraft.block.Weedcrop2Block;
 import net.mcreator.ganjacraft.block.Weedcrop1Block;
+import net.mcreator.ganjacraft.block.HempcretePowderBlock;
 import net.mcreator.ganjacraft.GanjacraftModElements;
 import net.mcreator.ganjacraft.GanjacraftMod;
 
@@ -29,7 +30,7 @@ import java.util.HashMap;
 @GanjacraftModElements.ModElement.Tag
 public class UpdateTickProcedure extends GanjacraftModElements.ModElement {
 	public UpdateTickProcedure(GanjacraftModElements instance) {
-		super(instance, 40);
+		super(instance, 59);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -178,7 +179,7 @@ public class UpdateTickProcedure extends GanjacraftModElements.ModElement {
 																																												.getBlock() == Blocks.RED_CONCRETE_POWDER
 																																														.getDefaultState()
 																																														.getBlock())
-																																						|| ((world
+																																						|| (((world
 																																								.getBlockState(
 																																										new BlockPos(
 																																												(int) x,
@@ -186,7 +187,16 @@ public class UpdateTickProcedure extends GanjacraftModElements.ModElement {
 																																												(int) z)))
 																																														.getBlock() == Blocks.BLACK_CONCRETE_POWDER
 																																																.getDefaultState()
-																																																.getBlock())))))))))))))))))))) {
+																																																.getBlock())
+																																								|| ((world
+																																										.getBlockState(
+																																												new BlockPos(
+																																														(int) x,
+																																														(int) (y + 1),
+																																														(int) z)))
+																																																.getBlock() == HempcretePowderBlock.block
+																																																		.getDefaultState()
+																																																		.getBlock()))))))))))))))))))))) {
 			if (world instanceof World) {
 				Block.spawnDrops(world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z)), (World) world,
 						new BlockPos((int) x, (int) y, (int) z));
@@ -216,7 +226,7 @@ public class UpdateTickProcedure extends GanjacraftModElements.ModElement {
 						return tileEntity.getTileData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "growthTimer")) >= 450)) {
+			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "growthTimer")) >= 600)) {
 				randomGrowth = (double) Math.random();
 				if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == WeedcropBlock.block.getDefaultState().getBlock())) {
 					if (((randomGrowth) >= 0.66)) {

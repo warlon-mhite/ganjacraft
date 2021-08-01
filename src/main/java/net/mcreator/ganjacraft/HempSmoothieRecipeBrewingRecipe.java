@@ -14,7 +14,7 @@ import net.mcreator.ganjacraft.item.HempSmoothieItem;
 @GanjacraftModElements.ModElement.Tag
 public class HempSmoothieRecipeBrewingRecipe extends GanjacraftModElements.ModElement {
 	public HempSmoothieRecipeBrewingRecipe(GanjacraftModElements instance) {
-		super(instance, 80);
+		super(instance, 98);
 	}
 
 	@Override

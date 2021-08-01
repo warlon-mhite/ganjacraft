@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "ganjacraft:blocks/hemp_planks",
+    "particle": "ganjacraft:blocks/hemp_planks"
+  }
+}

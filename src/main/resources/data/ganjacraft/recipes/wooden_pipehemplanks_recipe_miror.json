@@ -1,0 +1,26 @@
+{
+  "group": "woodenpipe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "345"
+  ],
+  "key": {
+    "2": {
+      "item": "ganjacraft:hemp_planks_woddy_stuff_planks"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ganjacraft:weed_pipe",
+    "count": 1
+  }
+}

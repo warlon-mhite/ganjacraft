@@ -13,7 +13,7 @@ import java.util.Map;
 @GanjacraftModElements.ModElement.Tag
 public class HempcretePowderUpdateTickProcedure extends GanjacraftModElements.ModElement {
 	public HempcretePowderUpdateTickProcedure(GanjacraftModElements instance) {
-		super(instance, 140);
+		super(instance, 153);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

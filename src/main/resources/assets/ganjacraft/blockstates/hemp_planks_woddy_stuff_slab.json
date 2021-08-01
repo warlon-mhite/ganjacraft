@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ganjacraft:block/hemp_planks_woddy_stuff_slab"
+    },
+    "type=top": {
+      "model": "ganjacraft:block/hemp_planks_woddy_stuff_slab_top"
+    },
+    "type=double": {
+      "model": "ganjacraft:block/hemp_planks_woddy_stuff_slab_full"
+    }
+  }
+}

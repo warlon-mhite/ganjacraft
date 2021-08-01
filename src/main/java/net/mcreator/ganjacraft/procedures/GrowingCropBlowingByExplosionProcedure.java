@@ -14,7 +14,7 @@ import java.util.Map;
 @GanjacraftModElements.ModElement.Tag
 public class GrowingCropBlowingByExplosionProcedure extends GanjacraftModElements.ModElement {
 	public GrowingCropBlowingByExplosionProcedure(GanjacraftModElements instance) {
-		super(instance, 38);
+		super(instance, 57);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

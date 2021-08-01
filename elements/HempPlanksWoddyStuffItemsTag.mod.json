@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:HempPlanksWoddyStuffWood"
+      },
+      {
+        "value": "CUSTOM:HempPlanksWoddyStuffLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "hempplankswoddystuff_log",
+    "namespace": "forge"
+  }
+}

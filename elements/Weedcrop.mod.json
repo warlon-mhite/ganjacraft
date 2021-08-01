@@ -27,7 +27,7 @@
         "my": 0.016,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 2.0,
+        "My": 7.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -103,9 +103,6 @@
     "fluidRestrictions": [],
     "onTickUpdate": {
       "name": "UpdateTick"
-    },
-    "onDestroyedByPlayer": {
-      "name": "GrowingCropBlowingByExplosion"
     },
     "onDestroyedByExplosion": {
       "name": "GrowingCropBlowingByExplosion"

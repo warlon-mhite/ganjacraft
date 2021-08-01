@@ -12,7 +12,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class SnoopDogg48x48Painting extends GanjacraftModElements.ModElement {
 	public SnoopDogg48x48Painting(GanjacraftModElements instance) {
-		super(instance, 102);
+		super(instance, 118);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

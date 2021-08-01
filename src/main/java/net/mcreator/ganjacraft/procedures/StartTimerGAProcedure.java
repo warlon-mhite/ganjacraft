@@ -10,7 +10,7 @@ import java.util.Map;
 @GanjacraftModElements.ModElement.Tag
 public class StartTimerGAProcedure extends GanjacraftModElements.ModElement {
 	public StartTimerGAProcedure(GanjacraftModElements instance) {
-		super(instance, 85);
+		super(instance, 103);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

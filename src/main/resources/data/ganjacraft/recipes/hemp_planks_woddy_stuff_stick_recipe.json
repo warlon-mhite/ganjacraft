@@ -1,0 +1,20 @@
+{
+  "group": "stick",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hemp_planks_woddy_stuff_planks"
+    },
+    "1": {
+      "item": "ganjacraft:hemp_planks_woddy_stuff_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 6
+  }
+}

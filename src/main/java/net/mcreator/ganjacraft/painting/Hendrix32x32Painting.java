@@ -12,7 +12,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class Hendrix32x32Painting extends GanjacraftModElements.ModElement {
 	public Hendrix32x32Painting(GanjacraftModElements instance) {
-		super(instance, 117);
+		super(instance, 133);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

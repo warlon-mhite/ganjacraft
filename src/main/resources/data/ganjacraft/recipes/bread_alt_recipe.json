@@ -1,0 +1,22 @@
+{
+  "group": "bread",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "ganjacraft:hemp_flour"
+    },
+    "1": {
+      "item": "ganjacraft:hemp_flour"
+    },
+    "2": {
+      "item": "ganjacraft:hemp_flour"
+    }
+  },
+  "result": {
+    "item": "minecraft:bread",
+    "count": 1
+  }
+}

@@ -12,7 +12,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class BobMarley48x48Painting extends GanjacraftModElements.ModElement {
 	public BobMarley48x48Painting(GanjacraftModElements instance) {
-		super(instance, 96);
+		super(instance, 112);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

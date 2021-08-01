@@ -12,7 +12,7 @@ import net.mcreator.ganjacraft.GanjacraftModElements;
 @GanjacraftModElements.ModElement.Tag
 public class PineappleExpress48x64Painting extends GanjacraftModElements.ModElement {
 	public PineappleExpress48x64Painting(GanjacraftModElements instance) {
-		super(instance, 98);
+		super(instance, 114);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
