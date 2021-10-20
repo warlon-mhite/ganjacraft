@@ -9,7 +9,7 @@ Work in Progress | Create the community that this mod deserve
 <br/>
 If you want to contribute I've open-sourced this mod you can contribute here on GitHub<br/>
 Please send me your suggestions and bug reports on GitHub or by email :  warlon.doctrinality@simplelogin.fr<br/>
-You can also join the Cannadiscord https://discord.gg/AtUpDGXTNY<br/>
+You can also join the Cannadiscord https://discord.gg/xykRFac64Q<br/>
 
 STEP 1 : Find seeds by breaking tall grass and tall fern or founding wild indica !<br/>
  <br/>
